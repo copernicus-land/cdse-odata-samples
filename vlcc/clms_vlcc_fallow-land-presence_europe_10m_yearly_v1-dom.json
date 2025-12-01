@@ -1,23 +1,23 @@
 {
   "@odata.context": "$metadata#Products(Attributes())",
-  "Name": "CLMS_HRLVLCC_CPFLP_S2020_R10m_MQ_32620_V01_R00",
+  "Name": "CLMS_HRLVLCC_CPFLP_S2017_R10m_MQ_32620_V01_R00",
   "EvictionDate": "9999-12-31T23:59:59.999999Z",
-  "OriginDate": "2025-10-30T10:19:19.806464Z",
+  "OriginDate": "2025-11-20T11:24:27.926210Z",
   "Online": true,
   "ContentType": "application/tiff",
-  "Link": "VLCCFallowLandPresenceDOM/FallowLandPresence/CPFLP2020/CPFLP2020_10m/CLMS_HRLVLCC_CPFLP_S2020_R10m_MQ_32620_V01_R00.tif",
+  "Link": "s3://CLMS-EEA-DEV/2025/11/21/CLMS_HRLVLCC_CPFLP_S2017_R10m_MQ_32620_V01_R00.tar",
   "CollectionName": "CLMS",
   "ProductType": "cropping_patterns",
   "Component": "landcover_landuse",
-  "DatasetIdentifier": "clms_vlcc_fallow-land-presence_dom_utm_10m_yearly_v1",
+  "DatasetIdentifier": "clms_vlcc_fallow-land-presence_europe_10m_yearly_v1",
   "TargetFormat": "EXTRACTED",
   "DecompressionStep": false,
   "CompressionType": null,
   "ContentDate": {
-    "Start": "2020-01-01T00:00:00.000000Z",
-    "End": "2020-12-31T23:59:59.999999Z"
+    "Start": "2017-01-01T00:00:00.000000Z",
+    "End": "2017-12-31T23:59:59.999999Z"
   },
-  "NominalDate": "2020-01-01T00:00:00.000000Z",
+  "NominalDate": "2017-01-01T00:00:00.000000Z",
   "GeoFootprint": {
     "type": "Polygon",
     "coordinates": [
@@ -67,6 +67,11 @@
       "Value": "yearly"
     },
     {
+      "Name": "areaOfInterest",
+      "ValueType": "String",
+      "Value": "europe"
+    },
+    {
       "Name": "datasetShortName",
       "ValueType": "String",
       "Value": "cpflp"
@@ -82,19 +87,19 @@
       "Value": "10m"
     },
     {
-      "Name": "datasetAlias",
-      "ValueType": "String",
-      "Value": "clms_vlcc_fallow-land-presence"
-    },
-    {
-      "Name": "areaOfInterest",
-      "ValueType": "String",
-      "Value": "dom"
-    },
-    {
       "Name": "metricGridSpacing",
       "ValueType": "Integer",
       "Value": 10
+    },
+    {
+      "Name": "cellID",
+      "ValueType": "String",
+      "Value": "MQ_32620"
+    },
+    {
+      "Name": "datasetAlias",
+      "ValueType": "String",
+      "Value": "clms_vlcc_fallow-land-presence"
     },
     {
       "Name": "missionShortName",

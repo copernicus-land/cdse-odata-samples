@@ -1,46 +1,46 @@
 {
   "@odata.context": "$metadata#Products(Attributes())",
-  "Name": "CLMS_HRLVLCC_CPFLP_S2021_R10m_E63N16_03035_V01_R00",
+  "Name": "CLMS_HRLVLCC_GRA_S2017_R100m_E64N16_03035_V01_R00",
   "EvictionDate": "9999-12-31T23:59:59.999999Z",
-  "OriginDate": "2025-10-29T15:09:41.726846Z",
+  "OriginDate": "2025-10-20T06:27:06.000000Z",
   "Online": true,
   "ContentType": "application/tiff",
-  "Link": "VLCCSuccefullyIngestedDatasetSample/FallowLandPresence/CPFLP2021/CPFLP2021_10m/CLMS_HRLVLCC_CPFLP_S2021_R10m_E63N16_03035_V01_R00.tif",
+  "Link": "/data/CDSE/VLCC/VLCCDataSamples/Grassland/Grassland/GRA2017/GRA2017_100m/CLMS_HRLVLCC_GRA_S2017_R100m_E64N16_03035_V01_R00.tif",
   "CollectionName": "CLMS",
-  "ProductType": "cropping_patterns",
+  "ProductType": "grassland_and_herbaceous",
   "Component": "landcover_landuse",
-  "DatasetIdentifier": "clms_vlcc_fallow-land-presence_europe_laea_10m_yearly_v1",
+  "DatasetIdentifier": "clms_vlcc_grassland_europe_100m_yearly_v1",
   "TargetFormat": "EXTRACTED",
   "DecompressionStep": false,
   "CompressionType": null,
   "ContentDate": {
-    "Start": "2021-01-01T00:00:00.000000Z",
-    "End": "2021-12-31T23:59:59.999999Z"
+    "Start": "2017-01-01T00:00:00.000000Z",
+    "End": "2017-12-31T23:59:59.999999Z"
   },
-  "NominalDate": "2021-01-01T00:00:00.000000Z",
+  "NominalDate": "2017-01-01T00:00:00.000000Z",
   "GeoFootprint": {
     "type": "Polygon",
     "coordinates": [
       [
         [
-          31.7438892,
-          34.9186628
-        ],
-        [
-          32.013222,
-          35.7884034
+          32.7961769,
+          34.6584058
         ],
         [
           33.0764699,
           35.5245134
         ],
         [
-          32.7961769,
-          34.6584058
+          34.1331366,
+          35.248549
         ],
         [
-          31.7438892,
-          34.9186628
+          33.8422244,
+          34.3862011
+        ],
+        [
+          32.7961769,
+          34.6584058
         ]
       ]
     ]
@@ -67,34 +67,39 @@
       "Value": "yearly"
     },
     {
-      "Name": "datasetShortName",
-      "ValueType": "String",
-      "Value": "cpflp"
-    },
-    {
-      "Name": "SDIResourceIdentifier",
-      "ValueType": "String",
-      "Value": "copernicus_r_3035_10_m_cpflp_p_2017-now_v01_r00"
-    },
-    {
-      "Name": "gridLabel",
-      "ValueType": "String",
-      "Value": "10m"
-    },
-    {
-      "Name": "datasetAlias",
-      "ValueType": "String",
-      "Value": "clms_vlcc_fallow-land-presence"
-    },
-    {
       "Name": "areaOfInterest",
       "ValueType": "String",
       "Value": "europe"
     },
     {
+      "Name": "datasetShortName",
+      "ValueType": "String",
+      "Value": "gra"
+    },
+    {
+      "Name": "gridLabel",
+      "ValueType": "String",
+      "Value": "100m"
+    },
+    {
       "Name": "metricGridSpacing",
       "ValueType": "Integer",
-      "Value": 10
+      "Value": 100
+    },
+    {
+      "Name": "cellID",
+      "ValueType": "String",
+      "Value": "E64N16_03035"
+    },
+    {
+      "Name": "datasetAlias",
+      "ValueType": "String",
+      "Value": "clms_vlcc_grassland"
+    },
+    {
+      "Name": "SDIResourceIdentifier",
+      "ValueType": "String",
+      "Value": "copernicus_r_3035_100_m_gra_p_2017-now_v01_r00"
     },
     {
       "Name": "missionShortName",

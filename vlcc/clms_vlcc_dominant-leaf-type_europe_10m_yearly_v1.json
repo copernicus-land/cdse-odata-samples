@@ -1,0 +1,130 @@
+{
+  "@odata.context": "$metadata#Products(Attributes())",
+  "Name": "CLMS_HRLVLCC_DLT_S2018_R10m_E64N16_03035_V01_R00",
+  "EvictionDate": "9999-12-31T23:59:59.999999Z",
+  "OriginDate": "2025-10-20T06:27:01.000000Z",
+  "Online": true,
+  "ContentType": "application/tiff",
+  "Link": "/data/CDSE/VLCC/VLCCDataSamples/Forest/DominantLeafType/DLT2018/DLT2018_10m/CLMS_HRLVLCC_DLT_S2018_R10m_E64N16_03035_V01_R00.tif",
+  "CollectionName": "CLMS",
+  "ProductType": "dominant_leaf_type",
+  "Component": "landcover_landuse",
+  "DatasetIdentifier": "clms_vlcc_dominant-leaf-type_europe_10m_yearly_v1",
+  "TargetFormat": "EXTRACTED",
+  "DecompressionStep": false,
+  "CompressionType": null,
+  "ContentDate": {
+    "Start": "2018-01-01T00:00:00.000000Z",
+    "End": "2018-12-31T23:59:59.999999Z"
+  },
+  "NominalDate": "2018-01-01T00:00:00.000000Z",
+  "GeoFootprint": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          32.7961769,
+          34.6584058
+        ],
+        [
+          33.0764699,
+          35.5245134
+        ],
+        [
+          34.1331366,
+          35.248549
+        ],
+        [
+          33.8422244,
+          34.3862011
+        ],
+        [
+          32.7961769,
+          34.6584058
+        ]
+      ]
+    ]
+  },
+  "Attributes": [
+    {
+      "Name": "productVersion",
+      "ValueType": "String",
+      "Value": "v01_r00"
+    },
+    {
+      "Name": "datasetVersion",
+      "ValueType": "Integer",
+      "Value": 1
+    },
+    {
+      "Name": "fileFormat",
+      "ValueType": "String",
+      "Value": "cog"
+    },
+    {
+      "Name": "temporalRepeatRate",
+      "ValueType": "String",
+      "Value": "yearly"
+    },
+    {
+      "Name": "areaOfInterest",
+      "ValueType": "String",
+      "Value": "europe"
+    },
+    {
+      "Name": "SDIResourceIdentifier",
+      "ValueType": "String",
+      "Value": "copernicus_r_3035_10_m_dlt_p_2018-now_v01_r00"
+    },
+    {
+      "Name": "datasetShortName",
+      "ValueType": "String",
+      "Value": "dlt"
+    },
+    {
+      "Name": "gridLabel",
+      "ValueType": "String",
+      "Value": "10m"
+    },
+    {
+      "Name": "metricGridSpacing",
+      "ValueType": "Integer",
+      "Value": 10
+    },
+    {
+      "Name": "cellID",
+      "ValueType": "String",
+      "Value": "E64N16_03035"
+    },
+    {
+      "Name": "datasetAlias",
+      "ValueType": "String",
+      "Value": "clms_vlcc_dominant-leaf-type"
+    },
+    {
+      "Name": "missionShortName",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "platformShortName",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "platformAcronym",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "instrumentShortName",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "processingCenter",
+      "ValueType": "String",
+      "Value": "unspecified"
+    }
+  ]
+}

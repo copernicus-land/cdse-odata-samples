@@ -4,3 +4,5 @@ enabled,profile,name,path
 1,archive,ndvi_global_1km_10daily_v3_nc,s3://CLMS-ARCHIVE-INGESTION/netcdf/ndvi/ndvi_1km_v3_10daily/2020/20200321/c_gls_NDVI_202003210000_GLOBE_PROBAV_V3.0.1.nc
 1,waw3-1,wl-lakes_global_vector_daily_v2,s3://CLMS-CRYOHYDRO-INGESTION/webResources/catalogTree/geojson/lake_river_water_level/wl_lakes_v2_daily/c_gls_WL_202505062242_1300000001254_ALTI_V2.2.0.json
 1,waw3-1,wl-rivers_global_vector_daily_v2,s3://CLMS-CRYOHYDRO-INGESTION/webResources/catalogTree/geojson/lake_river_water_level/wl_rivers_v2_daily/c_gls_WL_202505072101_0000000003060_ALTI_V2.2.0.json
+1,clms-dataproviders-dev,vlcc/clms_vlcc_fallow-land-presence_europe_10m_yearly_v1,s3://CLMS-EEA-DEV/2025/11/21/CLMS_HRLVLCC_CPFLP_S2017_R10m_E63N16_03035_V01_R00.tar
+1,clms-dataproviders-dev,vlcc/clms_vlcc_fallow-land-presence_europe_10m_yearly_v1-dom,s3://CLMS-EEA-DEV/2025/11/21/CLMS_HRLVLCC_CPFLP_S2017_R10m_MQ_32620_V01_R00.tar
