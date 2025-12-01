@@ -1,0 +1,120 @@
+{
+  "@odata.context": "$metadata#Products(Attributes())",
+  "Name": "clms_HF300_202106010000_GLOBE_S3_V1.0.1_cog",
+  "EvictionDate": "9999-12-31T23:59:59.999999Z",
+  "OriginDate": "2025-10-20T15:26:46.000000Z",
+  "Online": true,
+  "ContentType": "application/tiff",
+  "Link": "/vitodata/cgl_vol2/SEN3-ETA/20210601/daily",
+  "CollectionName": "CLMS",
+  "ProductType": "evapotranspiration",
+  "Component": "bio-geophysical",
+  "DatasetIdentifier": "hf_global_300m_daily_v1",
+  "TargetFormat": "EXTRACTED",
+  "DecompressionStep": false,
+  "CompressionType": null,
+  "ContentDate": {
+    "Start": "2021-06-01T00:00:00.000000Z",
+    "End": "2021-06-01T23:59:59.999999Z"
+  },
+  "NominalDate": "2021-06-01T00:00:00.000000Z",
+  "GeoFootprint": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0014881,
+          -59.9985119
+        ],
+        [
+          -180.0014881,
+          80.0014881
+        ],
+        [
+          179.9985119,
+          80.0014881
+        ],
+        [
+          179.9985119,
+          -59.9985119
+        ],
+        [
+          -180.0014881,
+          -59.9985119
+        ]
+      ]
+    ]
+  },
+  "Attributes": [
+    {
+      "Name": "productVersion",
+      "ValueType": "String",
+      "Value": "v1.0.1"
+    },
+    {
+      "Name": "datasetVersion",
+      "ValueType": "Integer",
+      "Value": 1
+    },
+    {
+      "Name": "fileFormat",
+      "ValueType": "String",
+      "Value": "cog"
+    },
+    {
+      "Name": "processingCenter",
+      "ValueType": "String",
+      "Value": "VITO"
+    },
+    {
+      "Name": "datasetShortName",
+      "ValueType": "String",
+      "Value": "hf"
+    },
+    {
+      "Name": "datasetAlias",
+      "ValueType": "String",
+      "Value": "hf_global_300m_daily"
+    },
+    {
+      "Name": "areaOfInterest",
+      "ValueType": "String",
+      "Value": "global"
+    },
+    {
+      "Name": "metricGridSpacing",
+      "ValueType": "Integer",
+      "Value": 300
+    },
+    {
+      "Name": "gridLabel",
+      "ValueType": "String",
+      "Value": "300m"
+    },
+    {
+      "Name": "temporalRepeatRate",
+      "ValueType": "String",
+      "Value": "daily"
+    },
+    {
+      "Name": "missionShortName",
+      "ValueType": "String",
+      "Value": "SENTINEL3"
+    },
+    {
+      "Name": "platformShortName",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "platformAcronym",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "instrumentShortName",
+      "ValueType": "String",
+      "Value": "unspecified"
+    }
+  ]
+}
