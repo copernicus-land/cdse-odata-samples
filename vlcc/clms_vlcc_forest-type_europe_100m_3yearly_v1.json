@@ -1,0 +1,130 @@
+{
+  "@odata.context": "$metadata#Products(Attributes())",
+  "Name": "CLMS_HRLVLCC_FTY_S2021_R100m_E63N15_03035_V02_R00",
+  "EvictionDate": "9999-12-31T23:59:59.999999Z",
+  "OriginDate": "2025-10-20T06:27:03.000000Z",
+  "Online": true,
+  "ContentType": "application/tiff",
+  "Link": "/data/CDSE/VLCC/VLCCDataSamples/Forest/ForestType/FTY2021/FTY2021_100m/CLMS_HRLVLCC_FTY_S2021_R100m_E63N15_03035_V02_R00.tif",
+  "CollectionName": "CLMS",
+  "ProductType": "forest_type",
+  "Component": "landcover_landuse",
+  "DatasetIdentifier": "clms_vlcc_forest-type_europe_100m_3yearly_v2",
+  "TargetFormat": "EXTRACTED",
+  "DecompressionStep": false,
+  "CompressionType": null,
+  "ContentDate": {
+    "Start": "2021-01-01T00:00:00.000000Z",
+    "End": "2023-12-31T23:59:59.999999Z"
+  },
+  "NominalDate": "2021-01-01T00:00:00.000000Z",
+  "GeoFootprint": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          31.483765,
+          34.0465121
+        ],
+        [
+          31.7438892,
+          34.9186628
+        ],
+        [
+          32.7961769,
+          34.6584058
+        ],
+        [
+          32.5253988,
+          33.7897641
+        ],
+        [
+          31.483765,
+          34.0465121
+        ]
+      ]
+    ]
+  },
+  "Attributes": [
+    {
+      "Name": "productVersion",
+      "ValueType": "String",
+      "Value": "v02_r00"
+    },
+    {
+      "Name": "datasetVersion",
+      "ValueType": "Integer",
+      "Value": 2
+    },
+    {
+      "Name": "fileFormat",
+      "ValueType": "String",
+      "Value": "cog"
+    },
+    {
+      "Name": "temporalRepeatRate",
+      "ValueType": "String",
+      "Value": "3yearly"
+    },
+    {
+      "Name": "areaOfInterest",
+      "ValueType": "String",
+      "Value": "europe"
+    },
+    {
+      "Name": "datasetShortName",
+      "ValueType": "String",
+      "Value": "fty"
+    },
+    {
+      "Name": "gridLabel",
+      "ValueType": "String",
+      "Value": "100m"
+    },
+    {
+      "Name": "metricGridSpacing",
+      "ValueType": "Integer",
+      "Value": 100
+    },
+    {
+      "Name": "cellID",
+      "ValueType": "String",
+      "Value": "E63N15_03035"
+    },
+    {
+      "Name": "datasetAlias",
+      "ValueType": "String",
+      "Value": "clms_vlcc_forest-type"
+    },
+    {
+      "Name": "SDIResourceIdentifier",
+      "ValueType": "String",
+      "Value": "copernicus_r_3035_100_m_fty-2018-2021_p_2018-2021_v01_r00"
+    },
+    {
+      "Name": "missionShortName",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "platformShortName",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "platformAcronym",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "instrumentShortName",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "processingCenter",
+      "ValueType": "String",
+      "Value": "unspecified"
+    }
+  ]
+}
