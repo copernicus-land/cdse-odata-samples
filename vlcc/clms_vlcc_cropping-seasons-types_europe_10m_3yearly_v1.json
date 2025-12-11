@@ -92,14 +92,14 @@
       "Value": 10
     },
     {
-      "Name": "cellID",
-      "ValueType": "String",
-      "Value": "E10N25_03035"
-    },
-    {
       "Name": "datasetAlias",
       "ValueType": "String",
       "Value": "clms_vlcc_cropping-seasons-types"
+    },
+    {
+      "Name": "cellID",
+      "ValueType": "String",
+      "Value": "100kmE10N25"
     },
     {
       "Name": "missionShortName",

@@ -87,11 +87,6 @@
       "Value": 100
     },
     {
-      "Name": "cellID",
-      "ValueType": "String",
-      "Value": "E63N15_03035"
-    },
-    {
       "Name": "datasetAlias",
       "ValueType": "String",
       "Value": "clms_vlcc_forest-type"
@@ -100,6 +95,11 @@
       "Name": "SDIResourceIdentifier",
       "ValueType": "String",
       "Value": "copernicus_r_3035_100_m_fty-2018-2021_p_2018-2021_v01_r00"
+    },
+    {
+      "Name": "cellID",
+      "ValueType": "String",
+      "Value": "100kmE63N15"
     },
     {
       "Name": "missionShortName",

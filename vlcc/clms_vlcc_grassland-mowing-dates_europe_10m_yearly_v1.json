@@ -92,14 +92,14 @@
       "Value": 10
     },
     {
-      "Name": "cellID",
-      "ValueType": "String",
-      "Value": "E63N15_03035"
-    },
-    {
       "Name": "datasetAlias",
       "ValueType": "String",
       "Value": "clms_vlcc_grassland-mowing-dates"
+    },
+    {
+      "Name": "cellID",
+      "ValueType": "String",
+      "Value": "100kmE63N15"
     },
     {
       "Name": "missionShortName",
