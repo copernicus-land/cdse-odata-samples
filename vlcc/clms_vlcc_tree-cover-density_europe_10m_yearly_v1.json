@@ -87,11 +87,6 @@
       "Value": 10
     },
     {
-      "Name": "cellID",
-      "ValueType": "String",
-      "Value": "E63N15_03035"
-    },
-    {
       "Name": "datasetAlias",
       "ValueType": "String",
       "Value": "clms_vlcc_tree-cover-density"
@@ -100,6 +95,11 @@
       "Name": "SDIResourceIdentifier",
       "ValueType": "String",
       "Value": "copernicus_r_3035_10_m_tcd_p_2018-now_v01_r00"
+    },
+    {
+      "Name": "cellID",
+      "ValueType": "String",
+      "Value": "100kmE63N15"
     },
     {
       "Name": "missionShortName",

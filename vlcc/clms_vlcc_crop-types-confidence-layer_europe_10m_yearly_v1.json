@@ -87,14 +87,14 @@
       "Value": 10
     },
     {
-      "Name": "cellID",
-      "ValueType": "String",
-      "Value": "E64N16_03035"
-    },
-    {
       "Name": "datasetAlias",
       "ValueType": "String",
       "Value": "clms_vlcc_crop-types-confidence-layer"
+    },
+    {
+      "Name": "cellID",
+      "ValueType": "String",
+      "Value": "100kmE64N16"
     },
     {
       "Name": "missionShortName",
