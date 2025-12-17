@@ -1,0 +1,125 @@
+{
+  "@odata.context": "$metadata#Products(Attributes())",
+  "Name": "CLMS_HRLVLCC_CPFLDCL_P2017-2021_R10m_E11N25_03035_V01_R00",
+  "EvictionDate": "9999-12-31T23:59:59.999999Z",
+  "OriginDate": "2025-12-16T16:19:08.000000Z",
+  "Online": true,
+  "ContentType": "application/tiff",
+  "Link": "/data/CDSE/VLCC/FallowLandDurationConfidenceLayers_sample/CPFLDCL1721_10m/CLMS_HRLVLCC_CPFLDCL_P2017-2021_R10m_E11N25_03035_V01_R00.tif",
+  "CollectionName": "CLMS",
+  "ProductType": "cropping_patterns",
+  "Component": "landcover_landuse",
+  "DatasetIdentifier": "clms_vlcc_fallow-land-duration-confidence-layer_europe_10m_yearly_v1",
+  "TargetFormat": "EXTRACTED",
+  "DecompressionStep": false,
+  "CompressionType": null,
+  "ContentDate": {
+    "Start": "2017-01-01T00:00:00.000000Z",
+    "End": "2017-12-31T23:59:59.999999Z"
+  },
+  "NominalDate": "2017-01-01T00:00:00.000000Z",
+  "GeoFootprint": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -28.2405184,
+          38.0650015
+        ],
+        [
+          -28.7480319,
+          38.841434
+        ],
+        [
+          -27.7012301,
+          39.2853774
+        ],
+        [
+          -27.2012075,
+          38.502784
+        ],
+        [
+          -28.2405184,
+          38.0650015
+        ]
+      ]
+    ]
+  },
+  "Attributes": [
+    {
+      "Name": "productVersion",
+      "ValueType": "String",
+      "Value": "v01_r00"
+    },
+    {
+      "Name": "datasetVersion",
+      "ValueType": "Integer",
+      "Value": 1
+    },
+    {
+      "Name": "fileFormat",
+      "ValueType": "String",
+      "Value": "cog"
+    },
+    {
+      "Name": "temporalRepeatRate",
+      "ValueType": "String",
+      "Value": "yearly"
+    },
+    {
+      "Name": "areaOfInterest",
+      "ValueType": "String",
+      "Value": "europe"
+    },
+    {
+      "Name": "datasetShortName",
+      "ValueType": "String",
+      "Value": "cpfldcl"
+    },
+    {
+      "Name": "gridLabel",
+      "ValueType": "String",
+      "Value": "10m"
+    },
+    {
+      "Name": "metricGridSpacing",
+      "ValueType": "Integer",
+      "Value": 10
+    },
+    {
+      "Name": "datasetAlias",
+      "ValueType": "String",
+      "Value": "clms_vlcc_fallow-land-duration-confidence-layer"
+    },
+    {
+      "Name": "cellID",
+      "ValueType": "String",
+      "Value": "100kmE11N25"
+    },
+    {
+      "Name": "missionShortName",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "platformShortName",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "platformAcronym",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "instrumentShortName",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "processingCenter",
+      "ValueType": "String",
+      "Value": "unspecified"
+    }
+  ]
+}
