@@ -15,9 +15,9 @@
   "CompressionType": null,
   "ContentDate": {
     "Start": "2017-01-01T00:00:00.000000Z",
-    "End": "2017-12-31T23:59:59.999999Z"
+    "End": "2021-12-31T23:59:59.999999Z"
   },
-  "NominalDate": "2017-01-01T00:00:00.000000Z",
+  "NominalDate": "2021-01-01T00:00:00.000000Z",
   "GeoFootprint": {
     "type": "Polygon",
     "coordinates": [
