@@ -1,46 +1,46 @@
 {
   "@odata.context": "$metadata#Products(Attributes())",
-  "Name": "CLMS_HRLVLCC_TCPC_C2018-2021_R20m_E63N15_03035_V01_R00",
+  "Name": "CLMS_HRLVLCC_CPFLD_P2019-2023_R10m_E11N25_03035_V01_R00",
   "EvictionDate": "9999-12-31T23:59:59.999999Z",
-  "OriginDate": "2025-10-20T06:27:06.000000Z",
+  "OriginDate": "2025-12-16T16:19:02.000000Z",
   "Online": true,
   "ContentType": "application/tiff",
-  "Link": "/data/CDSE/VLCC/VLCCDataSamples/Forest/TreeCoverPresenceChange/TCPC1821/TCPC1821_20m/CLMS_HRLVLCC_TCPC_C2018-2021_R20m_E63N15_03035_V01_R00.tif",
+  "Link": "/data/CDSE/VLCC/FallowLandDuration_sample/CPFLD1923_10m/CLMS_HRLVLCC_CPFLD_P2019-2023_R10m_E11N25_03035_V01_R00.tif",
   "CollectionName": "CLMS",
-  "ProductType": "tree_cover_density",
+  "ProductType": "cropping_patterns",
   "Component": "landcover_landuse",
-  "DatasetIdentifier": "clms_vlcc_tree-cover-presence-change_europe_20m_3yearly_v1",
+  "DatasetIdentifier": "clms_vlcc_fallow-land-duration_europe_10m_yearly_v1",
   "TargetFormat": "EXTRACTED",
   "DecompressionStep": false,
   "CompressionType": null,
   "ContentDate": {
-    "Start": "2018-01-01T00:00:00.000000Z",
-    "End": "2021-12-31T23:59:59.999999Z"
+    "Start": "2019-01-01T00:00:00.000000Z",
+    "End": "2023-12-31T23:59:59.999999Z"
   },
-  "NominalDate": "2021-01-01T00:00:00.000000Z",
+  "NominalDate": "2023-01-01T00:00:00.000000Z",
   "GeoFootprint": {
     "type": "Polygon",
     "coordinates": [
       [
         [
-          31.483765,
-          34.0465121
+          -28.2405184,
+          38.0650015
         ],
         [
-          31.7438892,
-          34.9186628
+          -28.7480319,
+          38.841434
         ],
         [
-          32.7961769,
-          34.6584058
+          -27.7012301,
+          39.2853774
         ],
         [
-          32.5253988,
-          33.7897641
+          -27.2012075,
+          38.502784
         ],
         [
-          31.483765,
-          34.0465121
+          -28.2405184,
+          38.0650015
         ]
       ]
     ]
@@ -64,7 +64,7 @@
     {
       "Name": "temporalRepeatRate",
       "ValueType": "String",
-      "Value": "3yearly"
+      "Value": "yearly"
     },
     {
       "Name": "areaOfInterest",
@@ -72,34 +72,34 @@
       "Value": "europe"
     },
     {
-      "Name": "SDIResourceIdentifier",
-      "ValueType": "String",
-      "Value": "copernicus_r_3035_20_m_tcpc-2018-2021_p_2018-2021_v01_r00"
-    },
-    {
       "Name": "datasetShortName",
       "ValueType": "String",
-      "Value": "tcpc"
+      "Value": "cpfld"
+    },
+    {
+      "Name": "SDIResourceIdentifier",
+      "ValueType": "String",
+      "Value": "copernicus_r_3035_10_m_cpfld-2017-2021_p_2017-2021_v01_r00"
     },
     {
       "Name": "gridLabel",
       "ValueType": "String",
-      "Value": "20m"
+      "Value": "10m"
     },
     {
       "Name": "metricGridSpacing",
       "ValueType": "Integer",
-      "Value": 20
+      "Value": 10
     },
     {
       "Name": "datasetAlias",
       "ValueType": "String",
-      "Value": "clms_vlcc_tree-cover-presence-change"
+      "Value": "clms_vlcc_fallow-land-duration"
     },
     {
       "Name": "cellID",
       "ValueType": "String",
-      "Value": "100kmE63N15"
+      "Value": "100kmE11N25"
     },
     {
       "Name": "missionShortName",
