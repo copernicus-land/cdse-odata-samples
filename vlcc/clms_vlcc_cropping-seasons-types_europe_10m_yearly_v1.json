@@ -9,7 +9,7 @@
   "CollectionName": "CLMS",
   "ProductType": "cropping_patterns",
   "Component": "landcover_landuse",
-  "DatasetIdentifier": "clms_vlcc_cropping-seasons-types_europe_10m_3yearly_v1",
+  "DatasetIdentifier": "clms_vlcc_cropping-seasons-types_europe_10m_yearly_v1",
   "TargetFormat": "EXTRACTED",
   "DecompressionStep": false,
   "CompressionType": null,
@@ -64,7 +64,7 @@
     {
       "Name": "temporalRepeatRate",
       "ValueType": "String",
-      "Value": "3yearly"
+      "Value": "yearly"
     },
     {
       "Name": "areaOfInterest",
