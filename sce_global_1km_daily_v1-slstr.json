@@ -1,0 +1,120 @@
+{
+  "@odata.context": "$metadata#Products(Attributes())",
+  "Name": "c_gls_SCE_202512020000_GLOBE_SLSTR_V1.0.1_nc",
+  "EvictionDate": "9999-12-31T23:59:59.999999Z",
+  "OriginDate": "2025-12-03T12:34:53.000000Z",
+  "Online": true,
+  "ContentType": "application/netcdf",
+  "Link": "/tmp/c_gls_SCE_202512020000_GLOBE_SLSTR_V1.0.1.nc",
+  "CollectionName": "CLMS",
+  "ProductType": "snow_cover_extent",
+  "Component": "bio-geophysical",
+  "DatasetIdentifier": "sce_global_1km_daily_v1",
+  "TargetFormat": "EXTRACTED",
+  "DecompressionStep": false,
+  "CompressionType": null,
+  "ContentDate": {
+    "Start": "2025-12-02T00:04:37.000000Z",
+    "End": "2025-12-02T23:27:02.000000Z"
+  },
+  "NominalDate": "2025-12-02T00:00:00.000000Z",
+  "GeoFootprint": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "Attributes": [
+    {
+      "Name": "productVersion",
+      "ValueType": "String",
+      "Value": "v1.0.1"
+    },
+    {
+      "Name": "datasetVersion",
+      "ValueType": "Integer",
+      "Value": 1
+    },
+    {
+      "Name": "fileFormat",
+      "ValueType": "String",
+      "Value": "nc"
+    },
+    {
+      "Name": "processingCenter",
+      "ValueType": "String",
+      "Value": "ENVEO IT"
+    },
+    {
+      "Name": "datasetShortName",
+      "ValueType": "String",
+      "Value": "sce"
+    },
+    {
+      "Name": "datasetAlias",
+      "ValueType": "String",
+      "Value": "sce_global_1km_daily"
+    },
+    {
+      "Name": "areaOfInterest",
+      "ValueType": "String",
+      "Value": "global"
+    },
+    {
+      "Name": "metricGridSpacing",
+      "ValueType": "Integer",
+      "Value": 1000
+    },
+    {
+      "Name": "gridLabel",
+      "ValueType": "String",
+      "Value": "1km"
+    },
+    {
+      "Name": "temporalRepeatRate",
+      "ValueType": "String",
+      "Value": "daily"
+    },
+    {
+      "Name": "missionShortName",
+      "ValueType": "String",
+      "Value": "SENTINEL3"
+    },
+    {
+      "Name": "platformShortName",
+      "ValueType": "String",
+      "Value": "SENTINEL3A,SENTINEL3B"
+    },
+    {
+      "Name": "platformAcronym",
+      "ValueType": "String",
+      "Value": "S3A,S3B"
+    },
+    {
+      "Name": "instrumentShortName",
+      "ValueType": "String",
+      "Value": "SLSTR"
+    }
+  ]
+}
