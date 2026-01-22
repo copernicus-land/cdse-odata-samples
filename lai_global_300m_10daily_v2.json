@@ -1,0 +1,125 @@
+{
+  "@odata.context": "$metadata#Products(Attributes())",
+  "Name": "c_gls_LAI300-RT6_201401100000_GLOBE_PROBAV_V2.0.1_nc",
+  "EvictionDate": "9999-12-31T23:59:59.999999Z",
+  "OriginDate": "2025-09-29T19:16:18.202082Z",
+  "Online": true,
+  "ContentType": "application/netcdf",
+  "Link": "/vitodata/cgl_vol2/PBV-GEO/synthesis/tiles/synthesis/LAI/2014/20140110/c_gls_LAI300-RT6_201401100000_GLOBE_PROBAV_V2.0.1.nc",
+  "CollectionName": "CLMS",
+  "ProductType": "vegetation_properties",
+  "Component": "bio-geophysical",
+  "DatasetIdentifier": "lai_global_300m_10daily_v2",
+  "TargetFormat": "EXTRACTED",
+  "DecompressionStep": false,
+  "CompressionType": null,
+  "ContentDate": {
+    "Start": "2014-01-01T00:00:00.000000Z",
+    "End": "2014-01-10T23:59:59.999999Z"
+  },
+  "NominalDate": "2014-01-10T00:00:00.000000Z",
+  "GeoFootprint": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0014881,
+          -59.9985119
+        ],
+        [
+          -180.0014881,
+          80.0014881
+        ],
+        [
+          179.9985119,
+          80.0014881
+        ],
+        [
+          179.9985119,
+          -59.9985119
+        ],
+        [
+          -180.0014881,
+          -59.9985119
+        ]
+      ]
+    ]
+  },
+  "Attributes": [
+    {
+      "Name": "productVersion",
+      "ValueType": "String",
+      "Value": "v2.0.1"
+    },
+    {
+      "Name": "datasetVersion",
+      "ValueType": "Integer",
+      "Value": 2
+    },
+    {
+      "Name": "fileFormat",
+      "ValueType": "String",
+      "Value": "nc"
+    },
+    {
+      "Name": "consolidationPeriod",
+      "ValueType": "Integer",
+      "Value": 6
+    },
+    {
+      "Name": "processingCenter",
+      "ValueType": "String",
+      "Value": "VITO"
+    },
+    {
+      "Name": "datasetShortName",
+      "ValueType": "String",
+      "Value": "lai"
+    },
+    {
+      "Name": "datasetAlias",
+      "ValueType": "String",
+      "Value": "lai_global_300m_10daily"
+    },
+    {
+      "Name": "areaOfInterest",
+      "ValueType": "String",
+      "Value": "global"
+    },
+    {
+      "Name": "metricGridSpacing",
+      "ValueType": "Integer",
+      "Value": 300
+    },
+    {
+      "Name": "gridLabel",
+      "ValueType": "String",
+      "Value": "300m"
+    },
+    {
+      "Name": "temporalRepeatRate",
+      "ValueType": "String",
+      "Value": "10daily"
+    },
+    {
+      "Name": "missionShortName",
+      "ValueType": "String",
+      "Value": "PROBAV"
+    },
+    {
+      "Name": "platformShortName",
+      "ValueType": "String",
+      "Value": "PROBAV"
+    },
+    {
+      "Name": "platformAcronym",
+      "ValueType": "String",
+      "Value": "PROBAV"
+    },
+    {
+      "Name": "instrumentShortName",
+      "ValueType": "String",
+      "Value": "VEGETATION"
+    }
+  ]
+}

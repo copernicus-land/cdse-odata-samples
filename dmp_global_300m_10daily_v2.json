@@ -1,0 +1,125 @@
+{
+  "@odata.context": "$metadata#Products(Attributes())",
+  "Name": "c_gls_DMP300-RT6_201901100000_GLOBE_OLCI_V2.0.1_nc",
+  "EvictionDate": "9999-12-31T23:59:59.999999Z",
+  "OriginDate": "2025-10-10T14:17:03.197311Z",
+  "Online": true,
+  "ContentType": "application/netcdf",
+  "Link": "/vitodata/cgl_vol2/datastorage/volume3/SEN3-DMP/reproc/2019/01/20190110/c_gls_DMP300-RT6_201901100000_GLOBE_OLCI_V2.0.1.nc",
+  "CollectionName": "CLMS",
+  "ProductType": "dry-gross_dry_matter_productivity",
+  "Component": "bio-geophysical",
+  "DatasetIdentifier": "dmp_global_300m_10daily_v2",
+  "TargetFormat": "EXTRACTED",
+  "DecompressionStep": false,
+  "CompressionType": null,
+  "ContentDate": {
+    "Start": "2019-01-01T00:00:00.000000Z",
+    "End": "2019-01-10T23:59:59.999999Z"
+  },
+  "NominalDate": "2019-01-10T00:00:00.000000Z",
+  "GeoFootprint": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0014881,
+          -59.9985119
+        ],
+        [
+          -180.0014881,
+          80.0014881
+        ],
+        [
+          179.9985119,
+          80.0014881
+        ],
+        [
+          179.9985119,
+          -59.9985119
+        ],
+        [
+          -180.0014881,
+          -59.9985119
+        ]
+      ]
+    ]
+  },
+  "Attributes": [
+    {
+      "Name": "productVersion",
+      "ValueType": "String",
+      "Value": "v2.0.1"
+    },
+    {
+      "Name": "datasetVersion",
+      "ValueType": "Integer",
+      "Value": 2
+    },
+    {
+      "Name": "fileFormat",
+      "ValueType": "String",
+      "Value": "nc"
+    },
+    {
+      "Name": "consolidationPeriod",
+      "ValueType": "Integer",
+      "Value": 6
+    },
+    {
+      "Name": "processingCenter",
+      "ValueType": "String",
+      "Value": "VITO"
+    },
+    {
+      "Name": "datasetShortName",
+      "ValueType": "String",
+      "Value": "dmp"
+    },
+    {
+      "Name": "datasetAlias",
+      "ValueType": "String",
+      "Value": "dmp_global_300m_10daily"
+    },
+    {
+      "Name": "areaOfInterest",
+      "ValueType": "String",
+      "Value": "global"
+    },
+    {
+      "Name": "metricGridSpacing",
+      "ValueType": "Integer",
+      "Value": 300
+    },
+    {
+      "Name": "gridLabel",
+      "ValueType": "String",
+      "Value": "300m"
+    },
+    {
+      "Name": "temporalRepeatRate",
+      "ValueType": "String",
+      "Value": "10daily"
+    },
+    {
+      "Name": "missionShortName",
+      "ValueType": "String",
+      "Value": "SENTINEL3"
+    },
+    {
+      "Name": "platformShortName",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "platformAcronym",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "instrumentShortName",
+      "ValueType": "String",
+      "Value": "OLCI"
+    }
+  ]
+}
