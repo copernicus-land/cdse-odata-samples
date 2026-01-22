@@ -92,9 +92,19 @@
       "Value": 10
     },
     {
-      "Name": "cellID",
+      "Name": "fuaCode",
       "ValueType": "String",
       "Value": "BE001L3"
+    },
+    {
+      "Name": "countryCode",
+      "ValueType": "String",
+      "Value": "BE"
+    },
+    {
+      "Name": "fuaName",
+      "ValueType": "String",
+      "Value": "BRUXELLES_BRUSSEL_LEUVEN"
     },
     {
       "Name": "datasetAlias",
