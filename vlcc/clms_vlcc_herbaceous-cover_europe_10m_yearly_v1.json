@@ -52,11 +52,6 @@
       "Value": "v01_r00"
     },
     {
-      "Name": "datasetVersion",
-      "ValueType": "Integer",
-      "Value": 1
-    },
-    {
       "Name": "fileFormat",
       "ValueType": "String",
       "Value": "cog"
@@ -70,6 +65,11 @@
       "Name": "areaOfInterest",
       "ValueType": "String",
       "Value": "europe"
+    },
+    {
+      "Name": "datasetVersion",
+      "ValueType": "Integer",
+      "Value": 1
     },
     {
       "Name": "datasetShortName",
