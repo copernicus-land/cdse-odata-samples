@@ -1,0 +1,120 @@
+{
+  "@odata.context": "$metadata#Products(Attributes())",
+  "Name": "c_gls_LST_202408011200_GLOBE_GEO_V3.0.1_nc",
+  "EvictionDate": "9999-12-31T23:59:59.999999Z",
+  "OriginDate": "2025-12-10T10:12:14.097429Z",
+  "Online": true,
+  "ContentType": "application/netcdf",
+  "Link": "/home/schoorsw/projects/repos/clms-metadata/tests/data/land_surface_temperature/lst_global_3km_hourly_v3/c_gls_LST_202408011200_GLOBE_GEO_V3.0.1.nc",
+  "CollectionName": "CLMS",
+  "ProductType": "land_surface_temperature",
+  "Component": "bio-geophysical",
+  "DatasetIdentifier": "lst_global_3km_hourly_v3",
+  "TargetFormat": "EXTRACTED",
+  "DecompressionStep": false,
+  "CompressionType": null,
+  "ContentDate": {
+    "Start": "2024-08-01T12:00:00.000000Z",
+    "End": "2024-08-01T12:15:00.000000Z"
+  },
+  "NominalDate": "2024-08-01T12:00:00.000000Z",
+  "GeoFootprint": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0125,
+          69.6125
+        ],
+        [
+          -180.0125,
+          70.0125
+        ],
+        [
+          -179.6125,
+          70.0125
+        ],
+        [
+          -179.6125,
+          69.6125
+        ],
+        [
+          -180.0125,
+          69.6125
+        ]
+      ]
+    ]
+  },
+  "Attributes": [
+    {
+      "Name": "productVersion",
+      "ValueType": "String",
+      "Value": "v3.0.1"
+    },
+    {
+      "Name": "datasetVersion",
+      "ValueType": "Integer",
+      "Value": 3
+    },
+    {
+      "Name": "fileFormat",
+      "ValueType": "String",
+      "Value": "nc"
+    },
+    {
+      "Name": "processingCenter",
+      "ValueType": "String",
+      "Value": "IPMA"
+    },
+    {
+      "Name": "datasetShortName",
+      "ValueType": "String",
+      "Value": "lst"
+    },
+    {
+      "Name": "datasetAlias",
+      "ValueType": "String",
+      "Value": "lst_global_3km_hourly"
+    },
+    {
+      "Name": "areaOfInterest",
+      "ValueType": "String",
+      "Value": "global"
+    },
+    {
+      "Name": "metricGridSpacing",
+      "ValueType": "Integer",
+      "Value": 3000
+    },
+    {
+      "Name": "gridLabel",
+      "ValueType": "String",
+      "Value": "3km"
+    },
+    {
+      "Name": "temporalRepeatRate",
+      "ValueType": "String",
+      "Value": "hourly"
+    },
+    {
+      "Name": "missionShortName",
+      "ValueType": "String",
+      "Value": "METEOSAT9,METEOSAT10,GOES"
+    },
+    {
+      "Name": "platformShortName",
+      "ValueType": "String",
+      "Value": "METEOSAT9,METEOSAT10,GOES16"
+    },
+    {
+      "Name": "platformAcronym",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "instrumentShortName",
+      "ValueType": "String",
+      "Value": "SEVIRI,ABI"
+    }
+  ]
+}
