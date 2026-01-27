@@ -79,7 +79,7 @@
     {
       "Name": "SDIResourceIdentifier",
       "ValueType": "String",
-      "Value": "copernicus_r_3035_10_m_ua-bh-2012_p_2012_v03_r00,copernicus_r_3035_10_m_ua-bh-2012_p_2011-2014_v02_r00"
+      "Value": "copernicus_r_3035_10_m_ua-bh-2021_p_2021_v01_r00"
     },
     {
       "Name": "gridLabel",
@@ -110,6 +110,11 @@
       "Name": "datasetAlias",
       "ValueType": "String",
       "Value": "clms_ua_building-height"
+    },
+    {
+      "Name": "cellID",
+      "ValueType": "String",
+      "Value": "BE001L3"
     },
     {
       "Name": "missionShortName",
