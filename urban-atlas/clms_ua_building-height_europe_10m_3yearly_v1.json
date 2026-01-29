@@ -1,0 +1,145 @@
+{
+  "@odata.context": "$metadata#Products(Attributes())",
+  "Name": "CLMS_UA_BBH_S2021_R10m_BE001L3_BRUXELLES_BRUSSEL_LEUVEN_03035_V02_R03_20251014",
+  "EvictionDate": "9999-12-31T23:59:59.999999Z",
+  "OriginDate": "2026-01-15T14:18:02.000000Z",
+  "Online": true,
+  "ContentType": "application/tiff",
+  "Link": "/data/CDSE/UrbanAtlas/BBH2021Sample/SampleVITO/CLMS_UA_BBH_S2021_R10m_BE001L3_BRUXELLES_BRUSSEL_LEUVEN_03035_V02_R03_20251014.tif",
+  "CollectionName": "CLMS",
+  "ProductType": "urban_atlas",
+  "Component": "land_cover_use_in_priority_areas",
+  "DatasetIdentifier": "clms_ua_building-height_europe_10m_3yearly_v1",
+  "TargetFormat": "EXTRACTED",
+  "DecompressionStep": false,
+  "CompressionType": null,
+  "ContentDate": {
+    "Start": "2021-01-01T00:00:00.000000Z",
+    "End": "2021-12-31T23:59:59.999999Z"
+  },
+  "NominalDate": "2021-01-01T00:00:00.000000Z",
+  "GeoFootprint": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          4.2514675,
+          50.7571648
+        ],
+        [
+          4.2299989,
+          50.9304887
+        ],
+        [
+          4.5162294,
+          50.9444242
+        ],
+        [
+          4.5366433,
+          50.7710409
+        ],
+        [
+          4.2514675,
+          50.7571648
+        ]
+      ]
+    ]
+  },
+  "Attributes": [
+    {
+      "Name": "productVersion",
+      "ValueType": "String",
+      "Value": "v02_r03"
+    },
+    {
+      "Name": "fileFormat",
+      "ValueType": "String",
+      "Value": "cog"
+    },
+    {
+      "Name": "areaOfInterest",
+      "ValueType": "String",
+      "Value": "europe"
+    },
+    {
+      "Name": "datasetVersion",
+      "ValueType": "Integer",
+      "Value": 1
+    },
+    {
+      "Name": "temporalRepeatRate",
+      "ValueType": "String",
+      "Value": "3yearly"
+    },
+    {
+      "Name": "datasetShortName",
+      "ValueType": "String",
+      "Value": "ua-bbh"
+    },
+    {
+      "Name": "SDIResourceIdentifier",
+      "ValueType": "String",
+      "Value": "copernicus_r_3035_10_m_ua-bh-2021_p_2021_v01_r00"
+    },
+    {
+      "Name": "gridLabel",
+      "ValueType": "String",
+      "Value": "10m"
+    },
+    {
+      "Name": "metricGridSpacing",
+      "ValueType": "Integer",
+      "Value": 10
+    },
+    {
+      "Name": "fuaCode",
+      "ValueType": "String",
+      "Value": "BE001L3"
+    },
+    {
+      "Name": "countryCode",
+      "ValueType": "String",
+      "Value": "BE"
+    },
+    {
+      "Name": "fuaName",
+      "ValueType": "String",
+      "Value": "BRUXELLES_BRUSSEL_LEUVEN"
+    },
+    {
+      "Name": "datasetAlias",
+      "ValueType": "String",
+      "Value": "clms_ua_building-height"
+    },
+    {
+      "Name": "cellID",
+      "ValueType": "String",
+      "Value": "BE001L3"
+    },
+    {
+      "Name": "missionShortName",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "platformShortName",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "platformAcronym",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "instrumentShortName",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "processingCenter",
+      "ValueType": "String",
+      "Value": "unspecified"
+    }
+  ]
+}
