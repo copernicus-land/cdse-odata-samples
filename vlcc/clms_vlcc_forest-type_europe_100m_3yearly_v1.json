@@ -9,7 +9,7 @@
   "CollectionName": "CLMS",
   "ProductType": "forest_type",
   "Component": "landcover_landuse",
-  "DatasetIdentifier": "clms_vlcc_forest-type_europe_100m_3yearly_v2",
+  "DatasetIdentifier": "clms_vlcc_forest-type_europe_100m_3yearly_v1",
   "TargetFormat": "EXTRACTED",
   "DecompressionStep": false,
   "CompressionType": null,
@@ -52,11 +52,6 @@
       "Value": "v02_r00"
     },
     {
-      "Name": "datasetVersion",
-      "ValueType": "Integer",
-      "Value": 2
-    },
-    {
       "Name": "fileFormat",
       "ValueType": "String",
       "Value": "cog"
@@ -70,6 +65,11 @@
       "Name": "areaOfInterest",
       "ValueType": "String",
       "Value": "europe"
+    },
+    {
+      "Name": "datasetVersion",
+      "ValueType": "Integer",
+      "Value": 1
     },
     {
       "Name": "datasetShortName",
