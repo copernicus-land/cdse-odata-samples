@@ -1,0 +1,120 @@
+{
+  "@odata.context": "$metadata#Products(Attributes())",
+  "Name": "c_gls_LST10-TCI_202207110000_GLOBE_GEO_V3.0.1_nc",
+  "EvictionDate": "9999-12-31T23:59:59.999999Z",
+  "OriginDate": "2026-03-02T22:28:14.296289Z",
+  "Online": true,
+  "ContentType": "application/netcdf",
+  "Link": "s3://CLMS-IPMA-DEV/2026/03/02/c_gls_LST10-TCI_202207110000_GLOBE_GEO_V3.0.1.nc",
+  "CollectionName": "CLMS",
+  "ProductType": "land_surface_temperature",
+  "Component": "bio-geophysical",
+  "DatasetIdentifier": "lst-tci_global_3km_10daily_v3",
+  "TargetFormat": "EXTRACTED",
+  "DecompressionStep": false,
+  "CompressionType": null,
+  "ContentDate": {
+    "Start": "2022-07-11T00:00:00.000000Z",
+    "End": "2022-07-20T23:00:00.000000Z"
+  },
+  "NominalDate": "2022-07-11T00:00:00.000000Z",
+  "GeoFootprint": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0125,
+          -70.0125
+        ],
+        [
+          -180.0125,
+          70.0125
+        ],
+        [
+          179.9875,
+          70.0125
+        ],
+        [
+          179.9875,
+          -70.0125
+        ],
+        [
+          -180.0125,
+          -70.0125
+        ]
+      ]
+    ]
+  },
+  "Attributes": [
+    {
+      "Name": "productVersion",
+      "ValueType": "String",
+      "Value": "v3.0.1"
+    },
+    {
+      "Name": "datasetVersion",
+      "ValueType": "Integer",
+      "Value": 3
+    },
+    {
+      "Name": "fileFormat",
+      "ValueType": "String",
+      "Value": "nc"
+    },
+    {
+      "Name": "processingCenter",
+      "ValueType": "String",
+      "Value": "IPMA"
+    },
+    {
+      "Name": "areaOfInterest",
+      "ValueType": "String",
+      "Value": "global"
+    },
+    {
+      "Name": "gridLabel",
+      "ValueType": "String",
+      "Value": "3km"
+    },
+    {
+      "Name": "temporalRepeatRate",
+      "ValueType": "String",
+      "Value": "10daily"
+    },
+    {
+      "Name": "datasetShortName",
+      "ValueType": "String",
+      "Value": "lst-tci"
+    },
+    {
+      "Name": "datasetAlias",
+      "ValueType": "String",
+      "Value": "lst-tci_global_3km_10daily"
+    },
+    {
+      "Name": "metricGridSpacing",
+      "ValueType": "Integer",
+      "Value": 3000
+    },
+    {
+      "Name": "missionShortName",
+      "ValueType": "String",
+      "Value": "METEOSAT9,METEOSAT11,HIMAWARI8,GOES"
+    },
+    {
+      "Name": "platformShortName",
+      "ValueType": "String",
+      "Value": "METEOSAT9,METEOSAT11,HIMAWARI8,GOES16"
+    },
+    {
+      "Name": "platformAcronym",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "instrumentShortName",
+      "ValueType": "String",
+      "Value": "SEVIRI,AHI,ABI"
+    }
+  ]
+}
