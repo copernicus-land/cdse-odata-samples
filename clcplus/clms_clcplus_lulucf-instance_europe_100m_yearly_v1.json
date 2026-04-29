@@ -1,11 +1,11 @@
 {
   "@odata.context": "$metadata#Products(Attributes())",
-  "Name": "CLMS_CLCPLUS_LULUCF_S2021_100M_EEA38_03035_V01_R00",
+  "Name": "CLMS_CLCPLUS_LULUCF_INSTANCE_S2021_R100M_EUROPE_03035_V01_R00",
   "EvictionDate": "9999-12-31T23:59:59.999999Z",
   "OriginDate": "2026-04-27T08:54:12.000000Z",
   "Online": true,
   "ContentType": "application/tiff",
-  "Link": "/data/CDSE/CLCPLUS/LULUCF/CLMS_CLCPLUS_LULUCF_S2021_100M_EEA38_03035_V01_R00.tif",
+  "Link": "/data/CDSE/CLCPLUS/LULUCF/CLMS_CLCPLUS_LULUCF_INSTANCE_S2021_R100M_EUROPE_03035_V01_R00.tif",
   "CollectionName": "CLMS",
   "ProductType": "clcplus_lulucf_instance",
   "Component": "landcover_landuse",
@@ -74,7 +74,7 @@
     {
       "Name": "datasetShortName",
       "ValueType": "String",
-      "Value": "clcplus-lulucf"
+      "Value": "clcplus-lulucf-instance"
     },
     {
       "Name": "metricGridSpacing",
