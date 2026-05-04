@@ -1,11 +1,11 @@
 {
   "@odata.context": "$metadata#Products(Attributes())",
-  "Name": "CLMS_CLCPLUS_LULUCF_INSTANCE_S2021_R100M_EUROPE_03035_V01_R00",
+  "Name": "CLMS_CLCPLUS_LULUCF-INSTANCE_S2021_R100m_EUROPE_03035_V01_R00",
   "EvictionDate": "9999-12-31T23:59:59.999999Z",
-  "OriginDate": "2026-04-27T08:54:12.000000Z",
+  "OriginDate": "2026-05-04T12:26:00.000000Z",
   "Online": true,
   "ContentType": "application/tiff",
-  "Link": "/data/CDSE/CLCPLUS/LULUCF/CLMS_CLCPLUS_LULUCF_INSTANCE_S2021_R100M_EUROPE_03035_V01_R00.tif",
+  "Link": "/data/CDSE/CLCPLUS/LULUCF/CLMS_CLCPLUS_LULUCF-INSTANCE_S2021_R100m_EUROPE_03035_V01_R00.tif",
   "CollectionName": "CLMS",
   "ProductType": "clcplus_lulucf_instance",
   "Component": "landcover_landuse",
@@ -77,14 +77,19 @@
       "Value": "clcplus-lulucf-instance"
     },
     {
-      "Name": "metricGridSpacing",
-      "ValueType": "Integer",
-      "Value": 100
+      "Name": "SDIResourceIdentifier",
+      "ValueType": "String",
+      "Value": "copernicus_r_3035_100_m_clcplus-lulucf-in_p_2018-now_v01_r00"
     },
     {
       "Name": "gridLabel",
       "ValueType": "String",
       "Value": "100m"
+    },
+    {
+      "Name": "metricGridSpacing",
+      "ValueType": "Integer",
+      "Value": 100
     },
     {
       "Name": "datasetAlias",
