@@ -1,0 +1,125 @@
+{
+  "@odata.context": "$metadata#Products(Attributes())",
+  "Name": "CLMS_CLCPLUS_LULUCF-INSTANCE_S2021_R100m_EUROPE_03035_V01_R00",
+  "EvictionDate": "9999-12-31T23:59:59.999999Z",
+  "OriginDate": "2026-05-04T12:26:00.000000Z",
+  "Online": true,
+  "ContentType": "application/tiff",
+  "Link": "/data/CDSE/CLCPLUS/LULUCF/CLMS_CLCPLUS_LULUCF-INSTANCE_S2021_R100m_EUROPE_03035_V01_R00.tif",
+  "CollectionName": "CLMS",
+  "ProductType": "clcplus_instance",
+  "Component": "landcover_landuse",
+  "DatasetIdentifier": "clms_clcplus_lulucf-instance_europe_100m_yearly_v1",
+  "TargetFormat": "EXTRACTED",
+  "DecompressionStep": false,
+  "CompressionType": null,
+  "ContentDate": {
+    "Start": "2021-01-01T00:00:00.000000Z",
+    "End": "2021-12-31T23:59:59.999999Z"
+  },
+  "NominalDate": "2021-01-01T00:00:00.000000Z",
+  "GeoFootprint": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -23.5560165,
+          24.8008093
+        ],
+        [
+          -54.9355433,
+          56.4147312
+        ],
+        [
+          70.7810072,
+          59.1122997
+        ],
+        [
+          40.0026457,
+          26.1892434
+        ],
+        [
+          -23.5560165,
+          24.8008093
+        ]
+      ]
+    ]
+  },
+  "Attributes": [
+    {
+      "Name": "productVersion",
+      "ValueType": "String",
+      "Value": "v01_r00"
+    },
+    {
+      "Name": "fileFormat",
+      "ValueType": "String",
+      "Value": "cog"
+    },
+    {
+      "Name": "areaOfInterest",
+      "ValueType": "String",
+      "Value": "europe"
+    },
+    {
+      "Name": "datasetVersion",
+      "ValueType": "Integer",
+      "Value": 1
+    },
+    {
+      "Name": "temporalRepeatRate",
+      "ValueType": "String",
+      "Value": "yearly"
+    },
+    {
+      "Name": "datasetShortName",
+      "ValueType": "String",
+      "Value": "clcplus-lulucf"
+    },
+    {
+      "Name": "SDIResourceIdentifier",
+      "ValueType": "String",
+      "Value": "copernicus_r_3035_100_m_clcplus-lulucf-in_p_2018-now_v01_r00"
+    },
+    {
+      "Name": "gridLabel",
+      "ValueType": "String",
+      "Value": "100m"
+    },
+    {
+      "Name": "metricGridSpacing",
+      "ValueType": "Integer",
+      "Value": 100
+    },
+    {
+      "Name": "datasetAlias",
+      "ValueType": "String",
+      "Value": "clms_clcplus_lulucf-instance"
+    },
+    {
+      "Name": "missionShortName",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "platformShortName",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "platformAcronym",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "instrumentShortName",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "processingCenter",
+      "ValueType": "String",
+      "Value": "unspecified"
+    }
+  ]
+}
