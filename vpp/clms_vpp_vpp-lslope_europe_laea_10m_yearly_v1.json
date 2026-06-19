@@ -1,0 +1,140 @@
+{
+  "@odata.context": "$metadata#Products(Attributes())",
+  "Name": "VPP_2018_S2_E09N27-03035-010m_V101_s1_LSLOPE",
+  "EvictionDate": "9999-12-31T23:59:59.999999Z",
+  "OriginDate": "2022-10-06T15:43:16.000000Z",
+  "Online": true,
+  "ContentType": "application/tiff",
+  "Link": "s3://hr-vpp-products-vpp-v01-laea-2018/CLMS/Pan-European/Biophysical/VPP_LAEA/v01/2018/s1/VPP_2018_S2_E09N27-03035-010m_V101_s1_LSLOPE.tif",
+  "CollectionName": "CLMS",
+  "ProductType": "vegetation_phenology_and_productivity_parameters",
+  "Component": "bio-geophysical",
+  "DatasetIdentifier": "clms_vpp_vpp-lslope_europe_laea_10m_yearly_v1",
+  "TargetFormat": "EXTRACTED",
+  "DecompressionStep": false,
+  "CompressionType": null,
+  "ContentDate": {
+    "Start": "2018-01-01T00:00:00.000000Z",
+    "End": "2018-12-31T23:59:59.999999Z"
+  },
+  "NominalDate": "2018-01-01T00:00:00.000000Z",
+  "GeoFootprint": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -31.345018,
+          38.678776
+        ],
+        [
+          -31.9004047,
+          39.431576
+        ],
+        [
+          -30.863786,
+          39.9106471
+        ],
+        [
+          -30.31475,
+          39.1512461
+        ],
+        [
+          -31.345018,
+          38.678776
+        ]
+      ]
+    ]
+  },
+  "Attributes": [
+    {
+      "Name": "productVersion",
+      "ValueType": "String",
+      "Value": "v101"
+    },
+    {
+      "Name": "datasetVersion",
+      "ValueType": "Integer",
+      "Value": 1
+    },
+    {
+      "Name": "fileFormat",
+      "ValueType": "String",
+      "Value": "cog"
+    },
+    {
+      "Name": "areaOfInterest",
+      "ValueType": "String",
+      "Value": "europe"
+    },
+    {
+      "Name": "temporalRepeatRate",
+      "ValueType": "String",
+      "Value": "yearly"
+    },
+    {
+      "Name": "gridLabel",
+      "ValueType": "String",
+      "Value": "10m"
+    },
+    {
+      "Name": "metricGridSpacing",
+      "ValueType": "Integer",
+      "Value": 10
+    },
+    {
+      "Name": "datasetAlias",
+      "ValueType": "String",
+      "Value": "clms_vpp_vpp-lslope"
+    },
+    {
+      "Name": "datasetShortName",
+      "ValueType": "String",
+      "Value": "lslope"
+    },
+    {
+      "Name": "vppSubParameter",
+      "ValueType": "String",
+      "Value": "LSLOPE"
+    },
+    {
+      "Name": "vppSeason",
+      "ValueType": "String",
+      "Value": "S1"
+    },
+    {
+      "Name": "SDIResourceIdentifier",
+      "ValueType": "String",
+      "Value": "copernicus_r_3035_x_m_hrvpp-vpp-lslope_p_2017-now_v01_r05"
+    },
+    {
+      "Name": "cellID",
+      "ValueType": "String",
+      "Value": "100kmE09N27"
+    },
+    {
+      "Name": "missionShortName",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "platformShortName",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "platformAcronym",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "instrumentShortName",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "processingCenter",
+      "ValueType": "String",
+      "Value": "unspecified"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "@odata.context": "$metadata#Products(Attributes())",
+  "Name": "VPP_2021_S2_T20PPA-010m_V105_s1_MAXV",
+  "EvictionDate": "9999-12-31T23:59:59.999999Z",
+  "OriginDate": "2023-04-05T22:37:42.000000Z",
+  "Online": true,
+  "ContentType": "application/tiff",
+  "Link": "s3://hr-vpp-products-vpp-v01-2021/CLMS/Pan-European/Biophysical/VPP/v01/2021/s1/VPP_2021_S2_T20PPA-010m_V105_s1_MAXV.tif",
+  "CollectionName": "CLMS",
+  "ProductType": "vegetation_phenology_and_productivity_parameters",
+  "Component": "bio-geophysical",
+  "DatasetIdentifier": "clms_vpp_vpp-maxv_europe_utm_10m_yearly_v1",
+  "TargetFormat": "EXTRACTED",
+  "DecompressionStep": false,
+  "CompressionType": null,
+  "ContentDate": {
+    "Start": "2021-01-01T00:00:00.000000Z",
+    "End": "2021-12-31T23:59:59.999999Z"
+  },
+  "NominalDate": "2021-01-01T00:00:00.000000Z",
+  "GeoFootprint": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -62.0760771,
+          13.4783177
+        ],
+        [
+          -62.0721097,
+          14.4710005
+        ],
+        [
+          -61.0535953,
+          14.4647797
+        ],
+        [
+          -61.0619127,
+          13.4725398
+        ],
+        [
+          -62.0760771,
+          13.4783177
+        ]
+      ]
+    ]
+  },
+  "Attributes": [
+    {
+      "Name": "productVersion",
+      "ValueType": "String",
+      "Value": "v105"
+    },
+    {
+      "Name": "datasetVersion",
+      "ValueType": "Integer",
+      "Value": 1
+    },
+    {
+      "Name": "fileFormat",
+      "ValueType": "String",
+      "Value": "cog"
+    },
+    {
+      "Name": "areaOfInterest",
+      "ValueType": "String",
+      "Value": "europe"
+    },
+    {
+      "Name": "temporalRepeatRate",
+      "ValueType": "String",
+      "Value": "yearly"
+    },
+    {
+      "Name": "metricGridSpacing",
+      "ValueType": "Integer",
+      "Value": 10
+    },
+    {
+      "Name": "gridLabel",
+      "ValueType": "String",
+      "Value": "10m"
+    },
+    {
+      "Name": "cellID",
+      "ValueType": "String",
+      "Value": "20PPA"
+    },
+    {
+      "Name": "datasetAlias",
+      "ValueType": "String",
+      "Value": "clms_vpp_vpp-maxv"
+    },
+    {
+      "Name": "datasetShortName",
+      "ValueType": "String",
+      "Value": "maxv"
+    },
+    {
+      "Name": "vppSubParameter",
+      "ValueType": "String",
+      "Value": "MAXV"
+    },
+    {
+      "Name": "vppSeason",
+      "ValueType": "String",
+      "Value": "S1"
+    },
+    {
+      "Name": "SDIResourceIdentifier",
+      "ValueType": "String",
+      "Value": "copernicus_r_utm-wgs84_10_m_hrvpp-vpp-maxv_p_2017-now_v01_r01"
+    },
+    {
+      "Name": "missionShortName",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "platformShortName",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "platformAcronym",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "instrumentShortName",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "processingCenter",
+      "ValueType": "String",
+      "Value": "unspecified"
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "@odata.context": "$metadata#Products(Attributes())",
+  "Name": "ST_20180621T000000_S2_eu-03035-100m_V101_QFLAG",
+  "EvictionDate": "9999-12-31T23:59:59.999999Z",
+  "OriginDate": "2022-10-15T07:31:50.000000Z",
+  "Online": true,
+  "ContentType": "application/tiff",
+  "Link": "s3://hr-vpp-products-st-v01-laea-2018/CLMS/Pan-European/Biophysical/ST_LAEA/v01/2018/06/21/ST_20180621T000000_S2_eu-03035-100m_V101_QFLAG.tif",
+  "CollectionName": "CLMS",
+  "ProductType": "vegetation_seasonal_trajectories",
+  "Component": "bio-geophysical",
+  "DatasetIdentifier": "clms_vpp_st-qflag_europe_laea_100m_10daily_v1",
+  "TargetFormat": "EXTRACTED",
+  "DecompressionStep": false,
+  "CompressionType": null,
+  "ContentDate": {
+    "Start": "2018-06-21T00:00:00.000000Z",
+    "End": "2018-06-30T23:59:59.999999Z"
+  },
+  "NominalDate": "2018-06-21T00:00:00.000000Z",
+  "GeoFootprint": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          33.0343047,
+          28.0154029
+        ],
+        [
+          25.1178314,
+          29.7833918
+        ],
+        [
+          16.9880113,
+          30.8131282
+        ],
+        [
+          8.7524601,
+          31.0812149
+        ],
+        [
+          0.5361289,
+          30.581211
+        ],
+        [
+          -7.5392348,
+          29.3250106
+        ],
+        [
+          -15.3746718,
+          27.3403159
+        ],
+        [
+          -19.1811569,
+          26.0864285
+        ],
+        [
+          -23.8259938,
+          24.284177
+        ],
+        [
+          -26.2664069,
+          30.0556477
+        ],
+        [
+          -29.2926671,
+          35.6124393
+        ],
+        [
+          -32.4739905,
+          40.1785069
+        ],
+        [
+          -36.3380768,
+          44.5244852
+        ],
+        [
+          -38.5776684,
+          46.5982871
+        ],
+        [
+          -41.0541086,
+          48.594067
+        ],
+        [
+          -45.7790288,
+          51.715478
+        ],
+        [
+          -51.3570775,
+          54.5221809
+        ],
+        [
+          -56.5051419,
+          56.4846525
+        ],
+        [
+          -51.1012335,
+          60.0596146
+        ],
+        [
+          -44.6686049,
+          63.3983463
+        ],
+        [
+          -38.5590436,
+          65.8502776
+        ],
+        [
+          -31.3838208,
+          68.0489292
+        ],
+        [
+          -22.9658821,
+          69.920973
+        ],
+        [
+          -13.2242184,
+          71.3759629
+        ],
+        [
+          -2.2937452,
+          72.3168509
+        ],
+        [
+          6.4272872,
+          72.6354457
+        ],
+        [
+          15.2789005,
+          72.6010837
+        ],
+        [
+          26.7321013,
+          72.0124815
+        ],
+        [
+          37.2280344,
+          70.8573453
+        ],
+        [
+          46.4480464,
+          69.2260058
+        ],
+        [
+          54.3577503,
+          67.2149895
+        ],
+        [
+          61.0886988,
+          64.9085836
+        ],
+        [
+          66.8314309,
+          62.3727147
+        ],
+        [
+          72.9061368,
+          58.9527511
+        ],
+        [
+          67.5770358,
+          56.8319332
+        ],
+        [
+          61.9128041,
+          53.8365212
+        ],
+        [
+          57.2042228,
+          50.5433444
+        ],
+        [
+          54.7682287,
+          48.4538083
+        ],
+        [
+          52.5834525,
+          46.293296
+        ],
+        [
+          48.8528872,
+          41.7940247
+        ],
+        [
+          45.816223,
+          37.0988901
+        ],
+        [
+          42.9540783,
+          31.417533
+        ],
+        [
+          40.662707,
+          25.5447112
+        ],
+        [
+          33.0343047,
+          28.0154029
+        ]
+      ]
+    ]
+  },
+  "Attributes": [
+    {
+      "Name": "productVersion",
+      "ValueType": "String",
+      "Value": "v101"
+    },
+    {
+      "Name": "datasetVersion",
+      "ValueType": "Integer",
+      "Value": 1
+    },
+    {
+      "Name": "fileFormat",
+      "ValueType": "String",
+      "Value": "cog"
+    },
+    {
+      "Name": "areaOfInterest",
+      "ValueType": "String",
+      "Value": "europe"
+    },
+    {
+      "Name": "temporalRepeatRate",
+      "ValueType": "String",
+      "Value": "10daily"
+    },
+    {
+      "Name": "gridLabel",
+      "ValueType": "String",
+      "Value": "100m"
+    },
+    {
+      "Name": "metricGridSpacing",
+      "ValueType": "Integer",
+      "Value": 100
+    },
+    {
+      "Name": "datasetAlias",
+      "ValueType": "String",
+      "Value": "clms_vpp_st-qflag"
+    },
+    {
+      "Name": "datasetShortName",
+      "ValueType": "String",
+      "Value": "qflag"
+    },
+    {
+      "Name": "SDIResourceIdentifier",
+      "ValueType": "String",
+      "Value": "copernicus_r_3035_x_m_hrvpp-st-qflag_p_2017-now_v01_r05"
+    },
+    {
+      "Name": "missionShortName",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "platformShortName",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "platformAcronym",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "instrumentShortName",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "processingCenter",
+      "ValueType": "String",
+      "Value": "unspecified"
+    }
+  ]
+}
