@@ -228,6 +228,11 @@
       "Value": "yearly"
     },
     {
+      "Name": "projectionName",
+      "ValueType": "String",
+      "Value": "laea"
+    },
+    {
       "Name": "gridLabel",
       "ValueType": "String",
       "Value": "100m"
@@ -245,7 +250,7 @@
     {
       "Name": "datasetShortName",
       "ValueType": "String",
-      "Value": "sosv"
+      "Value": "vpp_vpp-sosv"
     },
     {
       "Name": "vppSubParameter",
