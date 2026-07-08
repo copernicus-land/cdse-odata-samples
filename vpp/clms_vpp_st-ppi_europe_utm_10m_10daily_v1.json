@@ -2,10 +2,10 @@
   "@odata.context": "$metadata#Products(Attributes())",
   "Name": "ST_20210611T000000_S2_T20PPA-010m_V105_PPI",
   "EvictionDate": "9999-12-31T23:59:59.999999Z",
-  "OriginDate": "2023-04-05T23:27:11.000000Z",
+  "OriginDate": "2023-04-06T00:03:21.000000Z",
   "Online": true,
   "ContentType": "application/tiff",
-  "Link": "s3://hr-vpp-products-st-v01-2021/CLMS/Pan-European/Biophysical/ST/v01/2021/06/11/ST_20210611T000000_S2_T20PPA-010m_V105_PPI.tif",
+  "Link": "s3://hr-vpp-products-st-v01-2021/CLMS/Pan-European/Biophysical/ST/v01/2021/06/11/ST_20210611T000000_S2_T20PPA-010m_V105_PPI/",
   "CollectionName": "CLMS",
   "ProductType": "vegetation_seasonal_trajectories",
   "Component": "bio-geophysical",
@@ -87,6 +87,11 @@
       "Value": "utm"
     },
     {
+      "Name": "SDIResourceIdentifier",
+      "ValueType": "String",
+      "Value": "copernicus_r_utm-wgs84_10_m_hrvpp-st-ppi_p_2017-now_v01_r01,copernicus_r_utm-wgs84_10_m_hrvpp-st-qflag_p_2017-now_v01_r01"
+    },
+    {
       "Name": "cellID",
       "ValueType": "String",
       "Value": "20PPA"
@@ -100,11 +105,6 @@
       "Name": "datasetShortName",
       "ValueType": "String",
       "Value": "vpp_st-ppi"
-    },
-    {
-      "Name": "SDIResourceIdentifier",
-      "ValueType": "String",
-      "Value": "copernicus_r_utm-wgs84_10_m_hrvpp-st-ppi_p_2017-now_v01_r01"
     },
     {
       "Name": "missionShortName",
