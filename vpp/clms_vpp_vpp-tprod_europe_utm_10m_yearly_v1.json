@@ -82,6 +82,11 @@
       "Value": "10m"
     },
     {
+      "Name": "projectionName",
+      "ValueType": "String",
+      "Value": "utm"
+    },
+    {
       "Name": "cellID",
       "ValueType": "String",
       "Value": "20PPA"
@@ -94,7 +99,7 @@
     {
       "Name": "datasetShortName",
       "ValueType": "String",
-      "Value": "tprod"
+      "Value": "vpp_vpp-tprod"
     },
     {
       "Name": "vppSubParameter",

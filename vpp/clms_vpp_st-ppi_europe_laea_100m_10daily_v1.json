@@ -5,7 +5,7 @@
   "OriginDate": "2022-10-15T11:46:25.000000Z",
   "Online": true,
   "ContentType": "application/tiff",
-  "Link": "s3://hr-vpp-products-st-v01-laea-2018/CLMS/Pan-European/Biophysical/ST_LAEA/v01/2018/06/21/ST_20180621T000000_S2_eu-03035-100m_V101_PPI.tif",
+  "Link": "s3://hr-vpp-products-st-v01-laea-2018/CLMS/Pan-European/Biophysical/ST_LAEA/v01/2018/06/21/ST_20180621T000000_S2_eu-03035-100m_V101_PPI/",
   "CollectionName": "CLMS",
   "ProductType": "vegetation_seasonal_trajectories",
   "Component": "bio-geophysical",
@@ -228,6 +228,16 @@
       "Value": "10daily"
     },
     {
+      "Name": "projectionName",
+      "ValueType": "String",
+      "Value": "laea"
+    },
+    {
+      "Name": "SDIResourceIdentifier",
+      "ValueType": "String",
+      "Value": "copernicus_r_3035_x_m_hrvpp-st-ppi_p_2017-now_v01_r05,copernicus_r_3035_x_m_hrvpp-st-qflag_p_2017-now_v01_r05"
+    },
+    {
       "Name": "gridLabel",
       "ValueType": "String",
       "Value": "100m"
@@ -245,12 +255,7 @@
     {
       "Name": "datasetShortName",
       "ValueType": "String",
-      "Value": "ppi"
-    },
-    {
-      "Name": "SDIResourceIdentifier",
-      "ValueType": "String",
-      "Value": "copernicus_r_3035_x_m_hrvpp-st-ppi_p_2017-now_v01_r05"
+      "Value": "vpp_st-ppi"
     },
     {
       "Name": "missionShortName",
