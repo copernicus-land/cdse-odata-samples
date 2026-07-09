@@ -1,0 +1,130 @@
+{
+  "@odata.context": "$metadata#Products(Attributes())",
+  "Name": "CLMS_HRLVLCC_GRAC_C2021-2024_R20m_E09N27_03035_V01_R00",
+  "EvictionDate": "9999-12-31T23:59:59.999999Z",
+  "OriginDate": "2026-07-07T10:55:49.571992Z",
+  "Online": true,
+  "ContentType": "application/tiff",
+  "Link": "s3://CLMS-EEA-DEV/2026/07/07/CLMS_HRLVLCC_GRAC_C2021-2024_R20m_E09N27_03035_V01_R00.tar",
+  "CollectionName": "CLMS",
+  "ProductType": "grassland_and_herbaceous",
+  "Component": "landcover_landuse",
+  "DatasetIdentifier": "clms_vlcc_grassland-change_europe_20m_3yearly_v1",
+  "TargetFormat": "EXTRACTED",
+  "DecompressionStep": false,
+  "CompressionType": null,
+  "ContentDate": {
+    "Start": "2021-01-01T00:00:00.000000Z",
+    "End": "2024-12-31T23:59:59.999999Z"
+  },
+  "NominalDate": "2024-01-01T00:00:00.000000Z",
+  "GeoFootprint": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -31.345018,
+          38.678776
+        ],
+        [
+          -31.9004047,
+          39.431576
+        ],
+        [
+          -30.863786,
+          39.9106471
+        ],
+        [
+          -30.31475,
+          39.1512461
+        ],
+        [
+          -31.345018,
+          38.678776
+        ]
+      ]
+    ]
+  },
+  "Attributes": [
+    {
+      "Name": "productVersion",
+      "ValueType": "String",
+      "Value": "v01_r00"
+    },
+    {
+      "Name": "fileFormat",
+      "ValueType": "String",
+      "Value": "cog"
+    },
+    {
+      "Name": "temporalRepeatRate",
+      "ValueType": "String",
+      "Value": "3yearly"
+    },
+    {
+      "Name": "areaOfInterest",
+      "ValueType": "String",
+      "Value": "europe"
+    },
+    {
+      "Name": "datasetVersion",
+      "ValueType": "Integer",
+      "Value": 1
+    },
+    {
+      "Name": "SDIResourceIdentifier",
+      "ValueType": "String",
+      "Value": "copernicus_r_3035_20_m_grac-2021-2024_p_2021-2024_v01_r00"
+    },
+    {
+      "Name": "datasetShortName",
+      "ValueType": "String",
+      "Value": "grac"
+    },
+    {
+      "Name": "gridLabel",
+      "ValueType": "String",
+      "Value": "20m"
+    },
+    {
+      "Name": "metricGridSpacing",
+      "ValueType": "Integer",
+      "Value": 20
+    },
+    {
+      "Name": "datasetAlias",
+      "ValueType": "String",
+      "Value": "clms_vlcc_grassland-change"
+    },
+    {
+      "Name": "cellID",
+      "ValueType": "String",
+      "Value": "100kmE09N27"
+    },
+    {
+      "Name": "missionShortName",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "platformShortName",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "platformAcronym",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "instrumentShortName",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "processingCenter",
+      "ValueType": "String",
+      "Value": "unspecified"
+    }
+  ]
+}
