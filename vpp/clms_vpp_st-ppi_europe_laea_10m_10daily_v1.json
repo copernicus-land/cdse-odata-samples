@@ -1,11 +1,11 @@
 {
   "@odata.context": "$metadata#Products(Attributes())",
-  "Name": "ST_20180621T000000_S2_E09N27-03035-010m_V101_PPI",
+  "Name": "ST_20240101T000000_S2_E09N27-03035-010m_V105",
   "EvictionDate": "9999-12-31T23:59:59.999999Z",
-  "OriginDate": "2022-10-04T22:10:55.000000Z",
+  "OriginDate": "2026-08-12T08:16:48.860946Z",
   "Online": true,
   "ContentType": "application/tiff",
-  "Link": "s3://hr-vpp-products-st-v01-laea-2018/CLMS/Pan-European/Biophysical/ST_LAEA/v01/2018/06/21/ST_20180621T000000_S2_E09N27-03035-010m_V101_PPI/",
+  "Link": "s3://CLMS-EEA-DEV/2026/08/12/ST_20240101T000000_S2_E09N27-03035-010m_V105.tar",
   "CollectionName": "CLMS",
   "ProductType": "vegetation_seasonal_trajectories",
   "Component": "bio-geophysical",
@@ -14,10 +14,10 @@
   "DecompressionStep": false,
   "CompressionType": null,
   "ContentDate": {
-    "Start": "2018-06-21T00:00:00.000000Z",
-    "End": "2018-06-30T23:59:59.999999Z"
+    "Start": "2024-01-01T00:00:00.000000Z",
+    "End": "2024-01-10T23:59:59.999999Z"
   },
-  "NominalDate": "2018-06-21T00:00:00.000000Z",
+  "NominalDate": "2024-01-01T00:00:00.000000Z",
   "GeoFootprint": {
     "type": "Polygon",
     "coordinates": [
@@ -49,7 +49,7 @@
     {
       "Name": "productVersion",
       "ValueType": "String",
-      "Value": "v101"
+      "Value": "v105"
     },
     {
       "Name": "datasetVersion",
