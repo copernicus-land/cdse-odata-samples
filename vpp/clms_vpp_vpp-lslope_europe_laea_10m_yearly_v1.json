@@ -1,11 +1,11 @@
 {
   "@odata.context": "$metadata#Products(Attributes())",
-  "Name": "VPP-LSLOPE_2018_S2_E09N27-03035-010m_V101",
+  "Name": "VPP_2018_S2_E09N27-03035-010m_V101_SEASON2_LSLOPE",
   "EvictionDate": "9999-12-31T23:59:59.999999Z",
-  "OriginDate": "2026-08-12T08:08:52.299100Z",
+  "OriginDate": "2026-09-07T13:52:37.000000Z",
   "Online": true,
   "ContentType": "application/tiff",
-  "Link": "s3://CLMS-EEA-DEV/2026/08/12/VPP-LSLOPE_2018_S2_E09N27-03035-010m_V101.tar",
+  "Link": "s3://CLMS-EEA-DEV/hrvpp_NEW/VPP_2018_S2_E09N27-03035-010m_V101_SEASON2_LSLOPE.tar",
   "CollectionName": "CLMS",
   "ProductType": "vegetation_phenology_and_productivity_parameters",
   "Component": "bio-geophysical",
@@ -95,6 +95,11 @@
       "Name": "datasetShortName",
       "ValueType": "String",
       "Value": "vpp_vpp-lslope"
+    },
+    {
+      "Name": "vppSeason",
+      "ValueType": "String",
+      "Value": "S2"
     },
     {
       "Name": "vppSubParameter",

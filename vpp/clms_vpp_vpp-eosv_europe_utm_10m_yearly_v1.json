@@ -1,46 +1,46 @@
 {
   "@odata.context": "$metadata#Products(Attributes())",
-  "Name": "VPP_2018_S2_E09N27-03035-010m_V101_SEASON2_SOSV",
+  "Name": "VPP_2020_S2_T20PPA-010m_V101_SEASON1_EOSV",
   "EvictionDate": "9999-12-31T23:59:59.999999Z",
-  "OriginDate": "2026-09-07T13:52:46.000000Z",
+  "OriginDate": "2026-09-07T13:52:52.000000Z",
   "Online": true,
   "ContentType": "application/tiff",
-  "Link": "s3://CLMS-EEA-DEV/hrvpp_NEW/VPP_2018_S2_E09N27-03035-010m_V101_SEASON2_SOSV.tar",
+  "Link": "s3://CLMS-EEA-DEV/hrvpp_NEW/VPP_2020_S2_T20PPA-010m_V101_SEASON1_EOSV.tar",
   "CollectionName": "CLMS",
   "ProductType": "vegetation_phenology_and_productivity_parameters",
   "Component": "bio-geophysical",
-  "DatasetIdentifier": "clms_vpp_vpp-sosv_europe_laea_10m_yearly_v1",
+  "DatasetIdentifier": "clms_vpp_vpp-eosv_europe_utm_10m_yearly_v1",
   "TargetFormat": "EXTRACTED",
   "DecompressionStep": false,
   "CompressionType": null,
   "ContentDate": {
-    "Start": "2018-01-01T00:00:00.000000Z",
-    "End": "2018-12-31T23:59:59.999999Z"
+    "Start": "2020-01-01T00:00:00.000000Z",
+    "End": "2020-12-31T23:59:59.999999Z"
   },
-  "NominalDate": "2018-01-01T00:00:00.000000Z",
+  "NominalDate": "2020-01-01T00:00:00.000000Z",
   "GeoFootprint": {
     "type": "Polygon",
     "coordinates": [
       [
         [
-          -31.345018,
-          38.678776
+          -62.0760771,
+          13.4783177
         ],
         [
-          -31.9004047,
-          39.431576
+          -62.0721097,
+          14.4710005
         ],
         [
-          -30.863786,
-          39.9106471
+          -61.0535953,
+          14.4647797
         ],
         [
-          -30.31475,
-          39.1512461
+          -61.0619127,
+          13.4725398
         ],
         [
-          -31.345018,
-          38.678776
+          -62.0760771,
+          13.4783177
         ]
       ]
     ]
@@ -72,9 +72,9 @@
       "Value": "yearly"
     },
     {
-      "Name": "projectionName",
-      "ValueType": "String",
-      "Value": "laea"
+      "Name": "metricGridSpacing",
+      "ValueType": "Integer",
+      "Value": 10
     },
     {
       "Name": "gridLabel",
@@ -82,39 +82,39 @@
       "Value": "10m"
     },
     {
-      "Name": "metricGridSpacing",
-      "ValueType": "Integer",
-      "Value": 10
-    },
-    {
-      "Name": "datasetAlias",
+      "Name": "projectionName",
       "ValueType": "String",
-      "Value": "clms_vpp_vpp-sosv"
-    },
-    {
-      "Name": "datasetShortName",
-      "ValueType": "String",
-      "Value": "vpp_vpp-sosv"
-    },
-    {
-      "Name": "vppSeason",
-      "ValueType": "String",
-      "Value": "S2"
-    },
-    {
-      "Name": "vppSubParameter",
-      "ValueType": "String",
-      "Value": "SOSV"
-    },
-    {
-      "Name": "SDIResourceIdentifier",
-      "ValueType": "String",
-      "Value": "copernicus_r_3035_x_m_hrvpp-vpp-sosv_p_2017-now_v01_r05"
+      "Value": "utm"
     },
     {
       "Name": "cellID",
       "ValueType": "String",
-      "Value": "100kmE09N27"
+      "Value": "20PPA"
+    },
+    {
+      "Name": "datasetAlias",
+      "ValueType": "String",
+      "Value": "clms_vpp_vpp-eosv"
+    },
+    {
+      "Name": "datasetShortName",
+      "ValueType": "String",
+      "Value": "vpp_vpp-eosv"
+    },
+    {
+      "Name": "vppSeason",
+      "ValueType": "String",
+      "Value": "S1"
+    },
+    {
+      "Name": "vppSubParameter",
+      "ValueType": "String",
+      "Value": "EOSV"
+    },
+    {
+      "Name": "SDIResourceIdentifier",
+      "ValueType": "String",
+      "Value": "copernicus_r_utm-wgs84_10_m_hrvpp-vpp-eosv_p_2017-now_v01_r01"
     },
     {
       "Name": "missionShortName",

@@ -1,11 +1,11 @@
 {
   "@odata.context": "$metadata#Products(Attributes())",
-  "Name": "VPP-EOSD_2024_S2_E09N27-03035-010m_V105",
+  "Name": "VPP_2018_S2_E09N27-03035-010m_V101_SEASON2_EOSD",
   "EvictionDate": "9999-12-31T23:59:59.999999Z",
-  "OriginDate": "2026-08-12T08:08:52.327669Z",
+  "OriginDate": "2026-09-07T13:52:31.000000Z",
   "Online": true,
   "ContentType": "application/tiff",
-  "Link": "s3://CLMS-EEA-DEV/2026/08/12/VPP-EOSD_2024_S2_E09N27-03035-010m_V105.tar",
+  "Link": "s3://CLMS-EEA-DEV/hrvpp_NEW/VPP_2018_S2_E09N27-03035-010m_V101_SEASON2_EOSD.tar",
   "CollectionName": "CLMS",
   "ProductType": "vegetation_phenology_and_productivity_parameters",
   "Component": "bio-geophysical",
@@ -14,10 +14,10 @@
   "DecompressionStep": false,
   "CompressionType": null,
   "ContentDate": {
-    "Start": "2024-01-01T00:00:00.000000Z",
-    "End": "2024-12-31T23:59:59.999999Z"
+    "Start": "2018-01-01T00:00:00.000000Z",
+    "End": "2018-12-31T23:59:59.999999Z"
   },
-  "NominalDate": "2024-01-01T00:00:00.000000Z",
+  "NominalDate": "2018-01-01T00:00:00.000000Z",
   "GeoFootprint": {
     "type": "Polygon",
     "coordinates": [
@@ -49,7 +49,7 @@
     {
       "Name": "productVersion",
       "ValueType": "String",
-      "Value": "v105"
+      "Value": "v101"
     },
     {
       "Name": "datasetVersion",
@@ -95,6 +95,11 @@
       "Name": "datasetShortName",
       "ValueType": "String",
       "Value": "vpp_vpp-eosd"
+    },
+    {
+      "Name": "vppSeason",
+      "ValueType": "String",
+      "Value": "S2"
     },
     {
       "Name": "vppSubParameter",
