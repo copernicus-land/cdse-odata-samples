@@ -1,11 +1,11 @@
 {
   "@odata.context": "$metadata#Products(Attributes())",
-  "Name": "VPP_2021_S2_T20PPA-010m_V105_s1_MAXV",
+  "Name": "VPP_2020_S2_T20PPA-010m_V101_SEASON1_MAXV",
   "EvictionDate": "9999-12-31T23:59:59.999999Z",
-  "OriginDate": "2023-04-05T22:37:42.000000Z",
+  "OriginDate": "2026-09-07T13:52:57.000000Z",
   "Online": true,
   "ContentType": "application/tiff",
-  "Link": "s3://hr-vpp-products-vpp-v01-2021/CLMS/Pan-European/Biophysical/VPP/v01/2021/s1/VPP_2021_S2_T20PPA-010m_V105_s1_MAXV.tif",
+  "Link": "s3://CLMS-EEA-DEV/hrvpp_NEW/VPP_2020_S2_T20PPA-010m_V101_SEASON1_MAXV.tar",
   "CollectionName": "CLMS",
   "ProductType": "vegetation_phenology_and_productivity_parameters",
   "Component": "bio-geophysical",
@@ -14,10 +14,10 @@
   "DecompressionStep": false,
   "CompressionType": null,
   "ContentDate": {
-    "Start": "2021-01-01T00:00:00.000000Z",
-    "End": "2021-12-31T23:59:59.999999Z"
+    "Start": "2020-01-01T00:00:00.000000Z",
+    "End": "2020-12-31T23:59:59.999999Z"
   },
-  "NominalDate": "2021-01-01T00:00:00.000000Z",
+  "NominalDate": "2020-01-01T00:00:00.000000Z",
   "GeoFootprint": {
     "type": "Polygon",
     "coordinates": [
@@ -49,7 +49,7 @@
     {
       "Name": "productVersion",
       "ValueType": "String",
-      "Value": "v105"
+      "Value": "v101"
     },
     {
       "Name": "datasetVersion",
@@ -102,14 +102,14 @@
       "Value": "vpp_vpp-maxv"
     },
     {
-      "Name": "vppSubParameter",
-      "ValueType": "String",
-      "Value": "MAXV"
-    },
-    {
       "Name": "vppSeason",
       "ValueType": "String",
       "Value": "S1"
+    },
+    {
+      "Name": "vppSubParameter",
+      "ValueType": "String",
+      "Value": "MAXV"
     },
     {
       "Name": "SDIResourceIdentifier",

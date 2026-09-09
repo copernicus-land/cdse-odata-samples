@@ -23,24 +23,24 @@
     "coordinates": [
       [
         [
-          -180.0044643,
-          -59.9955357
+          -180.0,
+          -59.9999996
         ],
         [
-          -180.0044643,
-          80.0044643
+          -180.0,
+          80.0
         ],
         [
-          179.9955357,
-          80.0044643
+          179.9999988,
+          80.0
         ],
         [
-          179.9955357,
-          -59.9955357
+          179.9999988,
+          -59.9999996
         ],
         [
-          -180.0044643,
-          -59.9955357
+          -180.0,
+          -59.9999996
         ]
       ]
     ]
@@ -67,6 +67,21 @@
       "Value": "VITO"
     },
     {
+      "Name": "areaOfInterest",
+      "ValueType": "String",
+      "Value": "global"
+    },
+    {
+      "Name": "temporalRepeatRate",
+      "ValueType": "String",
+      "Value": "10daily"
+    },
+    {
+      "Name": "gridLabel",
+      "ValueType": "String",
+      "Value": "1km"
+    },
+    {
       "Name": "datasetShortName",
       "ValueType": "String",
       "Value": "ndvi"
@@ -77,24 +92,9 @@
       "Value": "ndvi_global_1km_10daily"
     },
     {
-      "Name": "areaOfInterest",
-      "ValueType": "String",
-      "Value": "global"
-    },
-    {
       "Name": "metricGridSpacing",
       "ValueType": "Integer",
       "Value": 1000
-    },
-    {
-      "Name": "gridLabel",
-      "ValueType": "String",
-      "Value": "1km"
-    },
-    {
-      "Name": "temporalRepeatRate",
-      "ValueType": "String",
-      "Value": "10daily"
     },
     {
       "Name": "missionShortName",
