@@ -6,7 +6,8 @@ enabled,profile,name,path,custom_link
 1,waw3-1,wl-rivers_global_vector_daily_v2,s3://CLMS-CRYOHYDRO-INGESTION/webResources/catalogTree/geojson/lake_river_water_level/wl_rivers_v2_daily/c_gls_WL_202505072101_0000000003060_ALTI_V2.2.0.json
 0,clms-dataproviders-dev,vlcc/clms_vlcc_fallow-land-presence_europe_10m_yearly_v1,s3://CLMS-EEA-DEV/2025/11/21/CLMS_HRLVLCC_CPFLP_S2017_R10m_E63N16_03035_V01_R00.tar
 0,clms-dataproviders-dev,vlcc/clms_vlcc_fallow-land-presence_europe_10m_yearly_v1-dom,s3://CLMS-EEA-DEV/2025/11/21/CLMS_HRLVLCC_CPFLP_S2017_R10m_MQ_32620_V01_R00.tar
-0,clms-dataproviders-dev,vpp/clms_vpp_st-ppi_europe_utm_10m_10daily_v1,s3://CLMS-EEA-DEV/hrvpp_NEW/ST_20240101T000000_S2_T20PPA-010m_V105_PPI.tar
+1,clms-dataproviders-dev,vpp/clms_vpp_st-ppi_europe_utm_10m_10daily_v1,s3://CLMS-EEA-DEV/hrvpp_NEW/ST_20240101T000000_S2_T20PPA-010m_V105_PPI.tar
+1,clms-dataproviders-dev,vpp/clms_vpp_st-ppi_europe_utm_10m_10daily_v1-qflag,s3://CLMS-EEA-DEV/hrvpp_NEW/ST_20240101T000000_S2_T20PPA-010m_V105_QFLAG.tar
 1,clms-dataproviders-dev,vpp/clms_vpp_vpp-ampl_europe_utm_10m_yearly_v1,s3://CLMS-EEA-DEV/hrvpp_NEW/VPP_2020_S2_T20PPA-010m_V101_SEASON1_AMPL.tar
 1,clms-dataproviders-dev,vpp/clms_vpp_vpp-eosd_europe_utm_10m_yearly_v1,s3://CLMS-EEA-DEV/hrvpp_NEW/VPP_2020_S2_T20PPA-010m_V101_SEASON1_EOSD.tar
 1,clms-dataproviders-dev,vpp/clms_vpp_vpp-eosv_europe_utm_10m_yearly_v1,s3://CLMS-EEA-DEV/hrvpp_NEW/VPP_2020_S2_T20PPA-010m_V101_SEASON1_EOSV.tar
