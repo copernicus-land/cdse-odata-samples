@@ -1,0 +1,89 @@
+{
+    "@odata.context": "$metadata#Products(Attributes())",
+    "Name": "c_gls_LCM-10_202001010000_GLOBE_V1.0.0_cog",
+    "EvictionDate": "9999-12-31T23:59:59.999999Z",
+    "OriginDate": "2025-02-03T21:27:37.216984Z",
+    "Online": true,
+    "ContentType": "application/tiff",
+    "Link": "s3://lcfm_waw3-1_4b82fdbbe2580bdfc4f595824922507c0d7cae2541c0799982/vito/products/LCM-10/v100/tiles_latlon/3deg/N00/E015/2020/LCFM_LCM-10_V100_2020_N00E015_MAP.tif",
+    "CollectionName": "CLMS",
+    "ProductType": "dynamic_land_cover",
+    "Component": "land_cover",
+    "DatasetIdentifier": "LCM-10_global_10m_yearly_v1",
+    "TargetFormat": "EXTRACTED",
+    "DecompressionStep": false,
+    "CompressionType": null,
+    "ContentDate": {
+        "Start": "2020-01-01T00:00:00Z",
+        "End": "2020-12-31T23:59:59Z"
+    },
+    "NominalDate": "2020-01-01T00:00:00Z",
+    "GeoFootprint": {"type": "Polygon", "coordinates": [[[15.0, 3.0], [15.0, 0.0], [18.0, 3.0], [18.0, 0.0], [15.0, 3.0]]]},
+    "Attributes": [
+        {
+            "Name": "productVersion",
+            "ValueType": "String",
+            "Value": "v1.0.0"
+        },
+        {
+            "Name": "datasetVersion",
+            "ValueType": "Integer",
+            "Value": 1
+        },
+        {
+            "Name": "fileFormat",
+            "ValueType": "String",
+            "Value": "cog"
+        },
+        {
+            "Name": "processingCenter",
+            "ValueType": "String",
+            "Value": "VITO"
+        },
+        {
+            "Name": "missionShortName",
+            "ValueType": "String",
+            "Value": "SENTINEL1,SENTINEL2"
+        },
+        {
+            "Name": "platformShortName",
+            "ValueType": "String",
+            "Value": "SENTINEL1,SENTINEL2"
+        },
+        {
+            "Name": "platformAcronym",
+            "ValueType": "String",
+            "Value": "S1,S2"
+        },
+        {
+            "Name": "instrumentShortName",
+            "ValueType": "String",
+            "Value": "VEGETATION"
+        },
+        {
+            "Name": "datasetShortName",
+            "ValueType": "String",
+            "Value": "LCM-10"
+        },
+        {
+            "Name": "datasetAlias",
+            "ValueType": "String",
+            "Value": "LCM-10_global_10m_yearly"
+        },
+        {
+            "Name": "areaOfInterest",
+            "ValueType": "String",
+            "Value": "global"
+        },
+        {
+            "Name": "gridLabel",
+            "ValueType": "String",
+            "Value": "1km"
+        },
+        {
+            "Name": "temporalRepeatRate",
+            "ValueType": "String",
+            "Value": "yearly"
+        }
+    ]
+}
