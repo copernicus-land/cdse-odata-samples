@@ -1,0 +1,120 @@
+{
+  "@odata.context": "$metadata#Products(Attributes())",
+  "Name": "c_gls_SSM1km_202302100000_GLOBE_S1CSAR_V2.0.1_nc",
+  "EvictionDate": "9999-12-31T23:59:59.999999Z",
+  "OriginDate": "2026-09-21T20:11:28.000000Z",
+  "Online": true,
+  "ContentType": "application/netcdf",
+  "Link": "s3://CLMS-EODC-DEV/2026/10/19/c_gls_SSM1km_202302100000_GLOBE_S1CSAR_V2.0.1.nc",
+  "CollectionName": "CLMS",
+  "ProductType": "surface_soil_moisture",
+  "Component": "bio-geophysical",
+  "DatasetIdentifier": "ssm_global_1km_daily_v2",
+  "TargetFormat": "EXTRACTED",
+  "DecompressionStep": false,
+  "CompressionType": null,
+  "ContentDate": {
+    "Start": "2023-02-10T00:00:00.000000Z",
+    "End": "2023-02-10T23:59:59.999999Z"
+  },
+  "NominalDate": "2023-02-10T00:00:00.000000Z",
+  "GeoFootprint": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "Attributes": [
+    {
+      "Name": "productVersion",
+      "ValueType": "String",
+      "Value": "v2.0.1"
+    },
+    {
+      "Name": "datasetVersion",
+      "ValueType": "Integer",
+      "Value": 2
+    },
+    {
+      "Name": "fileFormat",
+      "ValueType": "String",
+      "Value": "nc"
+    },
+    {
+      "Name": "processingCenter",
+      "ValueType": "String",
+      "Value": "EODC"
+    },
+    {
+      "Name": "areaOfInterest",
+      "ValueType": "String",
+      "Value": "global"
+    },
+    {
+      "Name": "gridLabel",
+      "ValueType": "String",
+      "Value": "1km"
+    },
+    {
+      "Name": "temporalRepeatRate",
+      "ValueType": "String",
+      "Value": "daily"
+    },
+    {
+      "Name": "datasetShortName",
+      "ValueType": "String",
+      "Value": "ssm"
+    },
+    {
+      "Name": "datasetAlias",
+      "ValueType": "String",
+      "Value": "ssm_global_1km_daily"
+    },
+    {
+      "Name": "metricGridSpacing",
+      "ValueType": "Integer",
+      "Value": 1000
+    },
+    {
+      "Name": "missionShortName",
+      "ValueType": "String",
+      "Value": "SENTINEL1,unspecified"
+    },
+    {
+      "Name": "platformShortName",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "platformAcronym",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "instrumentShortName",
+      "ValueType": "String",
+      "Value": "SAR,unspecified"
+    }
+  ]
+}

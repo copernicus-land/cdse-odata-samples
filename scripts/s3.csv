@@ -53,3 +53,5 @@ enabled,profile,name,path,custom_link
 0,hrvpp,vpp/clms_vpp_vpp-qflag_europe_laea_100m_yearly_v1,s3://hr-vpp-products-vpp-v01-laea-2018/CLMS/Pan-European/Biophysical/VPP_LAEA/v01/2018/s1/VPP_2018_S2_eu-03035-100m_V101_s1_QFLAG.tif
 0,hrvpp,vpp/clms_vpp_vpp-eosd_europe_laea_100m_yearly_v1,s3://hr-vpp-products-vpp-v01-laea-2018/CLMS/Pan-European/Biophysical/VPP_LAEA/v01/2018/s1/VPP_2018_S2_eu-03035-100m_V101_s1_EOSD.tif
 0,clms-dataproviders-dev,vlcc/clms_vlcc_grassland-change_europe_20m_3yearly_v1_2024,s3://CLMS-EEA-DEV/2026/07/07/CLMS_HRLVLCC_GRAC_C2021-2024_R20m_E09N27_03035_V01_R00.tar
+1,clms-dataproviders-dev,swi_global_1km_daily_v3,s3://CLMS-EODC-DEV/2026/11/04/c_gls_SWI1km_201609241200_GLOBE_SCATSAR_V3.0.1.nc
+1,clms-dataproviders-dev,ssm_global_1km_daily_v2,s3://CLMS-EODC-DEV/2026/10/19/c_gls_SSM1km_202302100000_GLOBE_S1CSAR_V2.0.1.nc
